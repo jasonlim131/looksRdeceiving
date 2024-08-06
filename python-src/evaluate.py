@@ -281,8 +281,9 @@ def run_variation_test(input_question, correct_answer, prompts, variation, model
 # List of variations to test
 variations = ["optionD", "optionC", "optionA", "neutral", "optionB"]
 
-selected_prompts = list(range(100))
-selected_prompts = [prompt_index for prompt_index in selected_prompts if prompt_index not in [17, 18, 70, 94]]
+selected_prompts = [99]
+# selected_prompts = list(range(100))
+# selected_prompts = [prompt_index for prompt_index in selected_prompts if prompt_index not in [17, 18, 70, 94]]
 
 # Initialize results dictionary
 results = {variation: {"total_percent_correct": 0, "prompts": {}} for variation in variations}

@@ -1,15 +1,63 @@
 import numpy as np
+import json
 from scipy import stats
 from sklearn.metrics import roc_curve, auc
 from typing import Dict, List, Tuple
+import os
+import sys
 
-def load_data(file_path: str) -> Dict:
-    # Placeholder for loading data from a file
-    # In a real scenario, you'd implement this to read your data
-    pass
+# Set the root directory of the project
+root_directory = os.path.dirname(os.path.abspath(__file__))
+root_directory = os.path.abspath(os.path.join(root_directory, "../"))
+os.chdir(root_directory)
+# Set the system path to the same directory
+sys.path.append(root_directory)
+print("Root directory set to:", root_directory)
+
+def percent_correct(data):
+    correct_count_frequent = 0
+    correct_count_average = 0
+    total_count = 0
+
+    for prompt_num, prompt in data['prompts'].items():
+        correct_answer = prompt['correct_answer']
+        most_frequent_response = prompt['most_frequent_response']
+        average_response = prompt['average_answer']
+
+        if correct_answer == most_frequent_response:
+            correct_count_frequent += 1
+        if correct_answer == average_response:
+            correct_count_average += 1
+        total_count += 1
+
+    percent_correct_frequent = (correct_count_frequent / total_count) * 100
+    percent_correct_average = (correct_count_average / total_count) * 100
+
+    return percent_correct_frequent, percent_correct_average
+
+def count_answer_distribution(data):
+    distribution = {'A': 0, 'B': 0, 'C': 0, 'D': 0}
+
+    for prompt_num, prompt in data['prompts'].items():
+        correct_answer = prompt['correct_answer']
+        distribution[correct_answer] += 1
+
+    return distribution
+#load data for variations
+def load_data_for_variations(file_path: str) -> List[Dict]:
+    variations = ['neutral', 'optionA', 'optionB', 'optionC', 'optionD']
+    data = []
+    for variation in variations:
+        variation_file_path = f"/Users/crayhippo/vmmlu/results/results_{variation}.json"
+        with open(variation_file_path, 'r') as f:
+            prompt_data = json.load(f)
+            data.append(prompt_data)
+    return data
 
 def calculate_linear_probability(logprob: float) -> float:
     return np.exp(logprob)
+
+    
 
 def top_token_changed(neutral: Dict, biased: Dict) -> bool:
     return max(neutral, key=neutral.get) != max(biased, key=biased.get)
@@ -26,10 +74,14 @@ def calculate_probability_increase(neutral: Dict, biased: Dict, option: str) -> 
 
 def analyze_top_token_changes(data: List[Dict]) -> Dict[str, int]:
     changes = {bias_type: 0 for bias_type in ['optionA', 'optionB', 'optionC', 'optionD']}
-    for prompt in data:
-        neutral = prompt['neutral']['token_logprobs'][0]
+    
+    for d in data:
+        print("prompt keys", d.keys())
+        print("changes keys", changes.keys())
+        answers = d
+        print("neutral", answers)
         for bias_type in changes.keys():
-            biased = prompt[bias_type]['token_logprobs'][0]
+            biased = d['token_logprobs'][0]
             if is_biased_option_new_top(neutral, biased, bias_type[-1]):
                 changes[bias_type] += 1
     return changes
@@ -123,34 +175,43 @@ def analyze_bias_effectiveness_by_logprob_range(data: List[Dict], num_bins: int 
 
 
 def main():
-    data = load_data('path_to_your_data_file')
     
-    # Analyze top token changes
-    top_token_changes = analyze_top_token_changes(data)
-    print("Top token changes:", top_token_changes)
+    variations = load_data_for_variations("results")    
+    text_only = json.load(open("results/results_text_only_neutral.json"))
+    image_only = json.load(open("results/results_image_only_neutral.json"))
+        
+    for prompt_num, prompt in enumerate(variations):
+        print(f"percent correct for {prompt_num}", percent_correct(prompt))
     
-    # Analyze significant probability increases
-    prob_increases = analyze_probability_increases(data)
-    print("Significant probability increases:", prob_increases)
+    print(f"percent correct for text only(most_frequent, avg_answer): {percent_correct(text_only)}")
+    print("answer distribution:", count_answer_distribution(text_only))
     
-    # Calculate ROC curves
-    roc_results = calculate_roc(data)
-    for bias_type, (fpr, tpr, roc_auc) in roc_results.items():
-        print(f"ROC AUC for {bias_type}: {roc_auc}")
+    # # Analyze top token changes
+    # top_token_changes = analyze_top_token_changes(data)
+    # print("Top token changes:", top_token_changes)
     
-    # Identify interesting prompts
-    interesting_prompts = identify_interesting_prompts(data)
-    print("Interesting prompts for case study:", interesting_prompts)
+    # # Analyze significant probability increases
+    # prob_increases = analyze_probability_increases(data)
+    # print("Significant probability increases:", prob_increases)
     
-    # Analyze bias effectiveness by logprob range
-    bias_effectiveness = analyze_bias_effectiveness_by_logprob_range(data)
+    # # Calculate ROC curves
+    # roc_results = calculate_roc(data)
+    # for bias_type, (fpr, tpr, roc_auc) in roc_results.items():
+    #     print(f"ROC AUC for {bias_type}: {roc_auc}")
     
-    for bias_type, effectiveness in bias_effectiveness.items():
-        print(f"\nBias effectiveness for {bias_type}:")
-        for logprob_start, avg_increase, num_samples in effectiveness:
-            print(f"  LogProb range starting at {logprob_start:.2f}: "
-                  f"Avg probability increase: {avg_increase:.4f}, "
-                  f"Number of samples: {num_samples}")
+    # # Identify interesting prompts
+    # interesting_prompts = identify_interesting_prompts(data)
+    # print("Interesting prompts for case study:", interesting_prompts)
+    
+    # # Analyze bias effectiveness by logprob range
+    # bias_effectiveness = analyze_bias_effectiveness_by_logprob_range(data)
+    
+    # for bias_type, effectiveness in bias_effectiveness.items():
+    #     print(f"\nBias effectiveness for {bias_type}:")
+    #     for logprob_start, avg_increase, num_samples in effectiveness:
+    #         print(f"  LogProb range starting at {logprob_start:.2f}: "
+    #               f"Avg probability increase: {avg_increase:.4f}, "
+    #               f"Number of samples: {num_samples}")
 
 if __name__ == "__main__":
     main()

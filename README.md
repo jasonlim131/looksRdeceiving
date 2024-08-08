@@ -1,4 +1,4 @@
-We record and measure the visual bias / sycophancy in proprietary and open-source models
+We recorded and measured the visual bias / sycophancy in proprietary and open-source models
 - gpt4o-mini
 - Claude sonnet3 and haiku3
 - Gemini-1.5-flash

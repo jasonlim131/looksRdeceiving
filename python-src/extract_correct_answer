@@ -1,0 +1,45 @@
+import os
+import json
+import random
+from PIL import Image, ImageDraw, ImageFont
+import textwrap
+from tqdm import tqdm
+from playwright.sync_api import sync_playwright
+
+def load_social_iqa_data(file_path, num_samples=100):
+    with open(file_path, 'r') as f:
+        data = [json.loads(line) for line in f]
+    return random.sample(data, num_samples)
+
+def load_labels(file_path):
+    with open(file_path, 'r') as f:
+        return [int(line.strip()) for line in f]
+
+
+def extract_correct_answers(social_iqa_data, output_directory):
+    selected_subset_path = os.path.join(output_directory, 'selected_subset.json')
+    correct_answers_path = os.path.join(output_directory, 'correct_answers.txt')
+
+    # Load the selected subset
+    with open(selected_subset_path, 'r') as f:
+        selected_subset = json.load(f)
+
+    # Extract the correct answers
+    correct_answers = []
+    for question in selected_subset:
+        question_id = question['id']
+        correct_answer = next((data['answer'] for data in social_iqa_data if data['id'] == question_id), None)
+        if correct_answer is not None:
+            correct_answers.append(correct_answer)
+
+    # Store the correct answers in a file
+    with open(correct_answers_path, 'w') as f:
+        for answer in correct_answers:
+            f.write(answer + '\n')
+
+# Call the function with the appropriate arguments
+social_iqa_data = load_social_iqa_data('path/to/social_iqa_data.json', num_samples=100)
+output_directory = 'output_directory'
+extract_correct_answers(social_iqa_data, output_directory)
+    
+    

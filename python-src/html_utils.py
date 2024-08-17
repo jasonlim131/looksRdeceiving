@@ -3,7 +3,6 @@ from playwright.sync_api import sync_playwright
 from tqdm import tqdm
 
 
-
 def html_to_png(html_file_path, output_path, width=1280, height=720, quality=100):
     with sync_playwright() as p:
         browser = p.chromium.launch()
@@ -31,6 +30,6 @@ variations = ['neutral', 'optionA', 'optionB', 'optionC', 'optionD']
 
 for variation in tqdm(variations):
     for i in tqdm(range(0, 100)):
-        html_file_path = f'output_directory/vmmlu_{variation}/question_{i}.html'
-        output_path = f'output_directory/vmmlu_{variation}_rendered/question_{i}.png'
+        html_file_path = f'output_directory/vmmlu_{variation}_size/question_{i}.html'
+        output_path = f'output_directory/vmmlu_{variation}_size_rendered/question_{i}.png'
         html_to_png(html_file_path, output_path)

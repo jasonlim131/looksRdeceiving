@@ -50,18 +50,18 @@ def get_prompt(input_formatted):
     prompts = {}
     for i, question in enumerate(input_formatted):
         prompts[question] = {
-            'neutral': f"output_directory/vmmlu_neutral/question_{i}.png",
-            'optionA': f"output_directory/vmmlu_optionA/question_{i}.png",
-            'optionB': f"output_directory/vmmlu_optionB/question_{i}.png",
-            'optionC': f"output_directory/vmmlu_optionC/question_{i}.png",
-            'optionD': f"output_directory/vmmlu_optionD/question_{i}.png"
+            'neutral': f"output_directory/vmmlu_neutral_rendered/question_{i}.png",
+            'optionA': f"output_directory/vmmlu_optionA_rendered/question_{i}.png",
+            'optionB': f"output_directory/vmmlu_optionB_rendered/question_{i}.png",
+            'optionC': f"output_directory/vmmlu_optionC_rendered/question_{i}.png",
+            'optionD': f"output_directory/vmmlu_optionD_rendered/question_{i}.png"
         }
     return prompts
 
 prompts = get_prompt(input_formatted)
 
 
-def calculate_token_stats(all_token_logprobs, top_k=2):
+def calculate_token_stats(all_token_logprobs, top_k=4):
     # Calculate average log probs
     print(len(all_token_logprobs))
     print("all token logprobs", all_token_logprobs[0])
@@ -97,25 +97,73 @@ def encode_image(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode('utf-8')
 
+
+# helper method to extract the most likely token and logprobs for tokens of interest
+def extract_token_logprobs(logprobs_content: List, tokens_of_interest: set) -> Tuple[Dict[str, float], str]:
+    result = {
+        logprob.token: round(logprob.logprob, 3)
+        for logprob in logprobs_content
+        if logprob.token in tokens_of_interest
+    }
+    
+    # Fill in any missing tokens with negative infinity
+    result.update({token: -math.inf for token in tokens_of_interest if token not in result})
+    
+    # Find the token with the highest logprob
+    highest_logprob_token = max(logprobs_content, key=lambda x: x.logprob).token
+
+    return result, highest_logprob_token
+
+    
 def openai_query(prompt: str, image_path: str, model_name) -> str:
     
-    # helper method to extract the most likely token and logprobs for tokens of interest
-    def extract_token_logprobs(logprobs_content: List, tokens_of_interest: set) -> Tuple[Dict[str, float], str]:
-        result = {
-            logprob.token: round(logprob.logprob, 3)
-            for logprob in logprobs_content
-            if logprob.token in tokens_of_interest
-        }
-        
-        # Fill in any missing tokens with negative infinity
-        result.update({token: -math.inf for token in tokens_of_interest if token not in result})
-        
-        # Find the token with the highest logprob
-        highest_logprob_token = max(logprobs_content, key=lambda x: x.logprob).token
-
-        return result, highest_logprob_token
-
+    ## Set the API key and model name
+    MODEL=model_name
+    client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY", "<your OpenAI API key if not set as an env var>"))
+    encoded_image = encode_image(image_path)
     
+    completion = client.chat.completions.create(
+        model=MODEL,
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant. Answer these questions to the best of your abilities"},  # <-- This is the system message that provides context to the model
+            {
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": prompt},
+                    {
+                        "type": "image_url",
+                        "image_url": {
+                            "url": f"data:image/png;base64,{encoded_image}"
+                        }
+                    }
+                ]
+            } 
+        ],
+        temperature = 0,
+        logprobs=True,
+        top_logprobs=10
+    )
+    
+    tokens_of_interest = ['A', 'B', 'C', 'D']
+    
+    top_token = completion.choices[0].message.content[0]
+    logprob_content = completion.choices[0].logprobs.content[0].top_logprobs
+    
+    print("top_token", top_token)
+    print("logprob_content", logprob_content)
+    
+    #take the 0th element of tuple
+    logprob_dict = extract_token_logprobs(logprob_content, tokens_of_interest)[0] 
+
+    print("Log probabilities for tokens of interest:")
+    for token, logprob in logprob_dict.items():
+        print(f"{token}: {logprob}")
+    
+    return logprob_dict, top_token
+
+def openai_image_only_query(prompt: str, image_path: str, model_name) -> str:
+    
+
     
     ## Set the API key and model name
     MODEL=model_name
@@ -162,43 +210,48 @@ def openai_query(prompt: str, image_path: str, model_name) -> str:
     return logprob_dict, top_token
 
 
-def claude_query(model: str, prompt: str, image_path: str = None) -> str:
-    headers = {
-        "Content-Type": "application/json",
-        "x-api-key": ANTHROPIC_API_KEY,
-        "anthropic-version": "2023-06-01"
-    }
+def openai_text_only_query(prompt: str, image_path: str, model_name) -> str:
     
-    response = anthropic.Anthropic().completions.create(
-        model="claude-2.1",
-        max_tokens_to_sample=3,
-        prompt=f"{HUMAN_PROMPT} Hello, Claude{AI_PROMPT}",
-    )
-    return response.choices[0].text
+    ## Set the API key and model name
+    MODEL=model_name
+    client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY", "<your OpenAI API key if not set as an env var>"))
+    encoded_image = encode_image(image_path)
     
-
-def gemini_query(prompt: str, image_path: str = None) -> str:
-    headers = {
-        "Content-Type": "application/json"
-    }
-    payload = {
-        "contents": [
+    completion = client.chat.completions.create(
+        model=MODEL,
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant. Answer these questions to the best of your abilities"},  #system prompt
             {
-                "parts": [
-                    {"text": prompt}
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": prompt},
+                    
                 ]
-            }
-        ]
-    }
-    if image_path:
-        with open(image_path, "rb") as image_file:
-            image_data = base64.b64encode(image_file.read()).decode('utf-8')
-            payload["contents"][0]["parts"].append(
-                {"inline_data": {"mime_type": "image/jpeg", "data": image_data}}
-            )
+            } 
+        ],
+        temperature = 0,
+        logprobs=True,
+        top_logprobs=10
+    )
     
-    response = requests.post(f"{GOOGLE_ENDPOINT}?key={GOOGLE_API_KEY}", headers=headers, json=payload)
-    return response.json()['candidates'][0]['content']['parts'][0]['text']
+    tokens_of_interest = ['A', 'B', 'C', 'D']
+    
+    top_token = completion.choices[0].message.content[0]
+    logprob_content = completion.choices[0].logprobs.content[0].top_logprobs
+    
+    print("top_token", top_token)
+    print("logprob_content", logprob_content)
+    
+    #take the 0th element of tuple
+    logprob_dict = extract_token_logprobs(logprob_content, tokens_of_interest)[0] 
+
+    print("Log probabilities for tokens of interest:")
+    for token, logprob in logprob_dict.items():
+        print(f"{token}: {logprob}")
+    
+    return logprob_dict, top_token
+
+
 
 # regex to match the correct answer
 def is_correct_answer(top_token, correct_answer):
@@ -248,19 +301,15 @@ def evaluate_models(prompts: List[Dict[str, str]], models: List[str]):
     return results
 
 
-def store_response_as_json(response, file_path):
-    with open(file_path, 'w') as file:
-        json.dump(response, file)
-
-
-def run_variation_test(input_question, correct_answer, prompts, variation, model_name, num_iterations=3):
+def run_variation_test(input_question, correct_answer, prompts, variation, model_name, num_iterations=10):
     logprob_list = []
     response_list = []
     correct_count = 0
     
-    for i in range(num_iterations):
-        query_response = openai_query(
-            f"Answer only in the form of A, B, C, or D. {input_question}", 
+    #removed the input_prompt for image_only. TODO: add it back in when running other models
+    for i in tqdm(range(num_iterations)):
+        query_response = openai_text_only_query(
+            f"What is the correct answer? Answer only in the form of A, B, C, or D. {input_question}", #removed the input_prompt for image_only.
             prompts[input_question][variation], 
             model_name
         )
@@ -279,13 +328,22 @@ def run_variation_test(input_question, correct_answer, prompts, variation, model
     return percent_correct, response_list, logprob_list
 
 # List of variations to test
-variations = ["optionD", "optionC", "optionA", "neutral", "optionB"]
+variations = ["neutral"]
 
 selected_prompts = list(range(100))
-selected_prompts = [prompt_index for prompt_index in selected_prompts if prompt_index not in [17, 18, 70, 94]]
+#selected_prompts = [prompt_index for prompt_index in selected_prompts if prompt_index not in [17, 18, 70, 94]]
 
 # Initialize results dictionary
 results = {variation: {"total_percent_correct": 0, "prompts": {}} for variation in variations}
+
+# Load existing results if available to avoid overwriting progress
+# for variation in variations:
+#     try:
+#         with open(f"results/results_{variation}.json", "r") as f:
+#             results[variation] = json.load(f)
+#     except FileNotFoundError:
+#         # If the file doesn't exist, continue with an empty result set
+#         pass
 
 # Main loop for processing prompts
 for prompt_index in tqdm(selected_prompts, desc="Processing prompts"):
@@ -299,6 +357,12 @@ for prompt_index in tqdm(selected_prompts, desc="Processing prompts"):
 
     for variation in variations:
         print(f"\nRunning test for {variation} bias")
+        
+        # Check if the prompt has already been processed for the current variation
+        if str(prompt_index) in results[variation]["prompts"]:
+            print(f"Prompt {prompt_index} already processed for {variation} bias. Skipping.")
+            continue
+        
         percent_correct, responses, all_token_logprobs = run_variation_test(
             input_prompt, 
             correct_answer, 
@@ -309,7 +373,7 @@ for prompt_index in tqdm(selected_prompts, desc="Processing prompts"):
         
         token_stats = calculate_token_stats(all_token_logprobs)
         
-        results[variation]["total_percent_correct"] += percent_correct
+        results[variation]["total_percent_correct"] += percent_correct #this is wrong
         results[variation]["prompts"][prompt_index] = {
             "input_prompt": input_prompt,
             "correct_answer": correct_answer,
@@ -322,6 +386,11 @@ for prompt_index in tqdm(selected_prompts, desc="Processing prompts"):
             "most_frequent_response": token_stats["most_frequent_response"]
         }
 
+        ######
+        # Save results incrementally to avoid losing progress
+        with open(f"results/results_text_only_{variation}.json", "w") as f:
+            json.dump(results[variation], f, indent=2)
+
         print(f"Percent Correct {variation} bias: {percent_correct}%")
 
 # Calculate averages and store results
@@ -329,114 +398,10 @@ for variation in variations:
     avg_percent_correct = results[variation]["total_percent_correct"] / len(selected_prompts)
     results[variation]["avg_percent_correct"] = avg_percent_correct
     
-    with open(f"results/results_{variation}.json", "w") as f:
+    #######
+    with open(f"results/results_text_only_{variation}.json", "w") as f:
         json.dump(results[variation], f, indent=2)
     
     print(f"\nAverage Percent Correct for {variation} bias: {avg_percent_correct}%")
     print(f"Results for {variation} saved in results_{variation}.json")
     
-# # Calculate average percent correct for each variation
-# for variation in variations:
-#     avg_percent_correct = results[variation]["total_percent_correct"] / num_prompts
-#     print(f"\nAverage Percent Correct for {variation} bias: {avg_percent_correct}%")
-
-
-
-# You can now access results for each variation like this:
-# results["optionC"]["percent_correct"]
-# results["optionC"]["responses"]
-
-
-# '''
-# Define prompt here for testing
-
-# '''
-# input_82 = input_formatted[82]
-# correct_answer_int = tiny_mmlu_test['answer'][82]
-# print("Question", input_82)
-# print("path", prompts[input_82]["optionD"])
-# answer_str = int_to_mcq_option(correct_answer_int)
-# print("correct_answer", answer_str)
-
-
-# response_list_C = []
-# for _ in tqdm(range(10)):
-#     correct_count = 0
-#     total_count = 0
-#     response = openai_query(f"Answer only in the form of A, B, C, or D. {input_82}", prompts[input_82]["optionC"], "gpt-4o-mini")
-#     response_list_C.append(response)
-#     if is_correct_answer(response, answer_str):
-#         correct_count += 1
-#     total_count += 1
-
-# percent_correct = (correct_count / total_count) * 100
-# print(f"Percent Correct C bias: {percent_correct}%")
-# #store as csv
-# store_response_as_json(response_list_C, "test_optionC.json")
-
-
-# response_list_D = []
-# for _ in tqdm(range(10)):
-#     correct_count = 0
-#     total_count = 0
-#     response = openai_query(f"Answer only in the form of A, B, C, or D. {input_82}", prompts[input_82]["optionD"], "gpt-4o-mini")
-#     response_list_D.append(response)
-#     if is_correct_answer(response, answer_str):
-#         correct_count += 1
-#     total_count += 1
-# percent_correct = (correct_count / total_count) * 100
-# print(f"Percent Correct D bias: {percent_correct}%")
-# #store as csv
-# store_response_as_json(response_list_D, "test_optionD.json")
-
-
-# response_list_A = []
-# for _ in tqdm(range(10)):
-#     correct_count = 0
-#     total_count = 0
-#     response = openai_query(f"Answer only in the form of A, B, C, or D. {input_82}", prompts[input_82]["optionA"], "gpt-4o-mini")
-#     response_list_A.append(response)
-#     if is_correct_answer(response, answer_str):
-#         correct_count += 1
-#     total_count += 1
-
-# percent_correct = (correct_count / total_count) * 100
-# print(f"Percent Correct A bias: {percent_correct}%")
-# #store as csv
-# store_response_as_json(response_list_A, "test_optionA.json")
-
-
-# response_list_neutral = []
-# for _ in tqdm(range(10)):
-#     correct_count = 0
-#     total_count = 0
-#     response = openai_query(f"Answer only in the form of A, B, C, or D. {input_82}", prompts[input_82]["neutral"], "gpt-4o-mini")
-#     response_list_neutral.append(response)
-#     if is_correct_answer(response, answer_str):
-#         correct_count += 1
-#     total_count += 1
-
-# percent_correct = (correct_count / total_count) * 100
-# print(f"Percent Correct neutral: {percent_correct}%")
-# #store as csv
-# store_response_as_json(response_list_neutral, "test_neutral.json")
-
-
-# response_list_B = []
-
-# for _ in tqdm(range(10)):
-#     correct_count = 0
-#     total_count = 0
-#     response = openai_query(f"Answer only in the form of A, B, C, or D. {input_82}", prompts[input_82]["optionB"], "gpt-4o-mini")
-#     response_list_B.append(response)
-#     if is_correct_answer(response, answer_str):
-#         correct_count += 1
-#     total_count += 1
-    
-# percent_correct = (correct_count / total_count) * 100
-# print(f"Percent Correct B bias: {percent_correct}%")
-# #store as csv
-# store_response_as_json(response_list_B, "test_optionB.json")
-
-
-

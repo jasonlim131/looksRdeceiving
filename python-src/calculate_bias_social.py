@@ -2,13 +2,13 @@ import numpy as np
 import json
 from typing import Dict, List
 
-MODEL = "llava"
+MODEL = "gpt-4o-mini"
 
 def load_data_for_variations(file_path: str) -> List[Dict]:
-    variations = ['neutral', 'optionA', 'optionB', 'optionC', 'optionD']
+    variations = ['neutral', 'optionA', 'optionB', 'optionC']
     data = []
     for variation in variations:
-        variation_file_path = f"{file_path}/results_{MODEL}_{variation}.json"
+        variation_file_path = f"{file_path}/results_{variation}.json"
         with open(variation_file_path, 'r') as f:
             prompt_data = json.load(f)
             data.append(prompt_data)
@@ -55,54 +55,40 @@ def analyze_answer_switches(neutral_data, biased_data):
     switches['percent_to_biased'] = (switches['to_biased'] / switches['total']) * 100 if switches['total'] > 0 else 0
     return switches
 
-import numpy as np
 
 def analyze_logprob_shifts(neutral_data, biased_data):
     def logprob_to_linear(logprob):
         return np.exp(logprob)
 
-    options = ['A', 'B', 'C', 'D'] if 'D' in neutral_data['prompts'][next(iter(neutral_data['prompts']))]['log_probs'][0] else ['A', 'B', 'C']
+    options = ['A', 'B', 'C', 'D'] if 'D' in neutral_data['prompts'][next(iter(neutral_data['prompts']))]['token_logprobs'][0] else ['A', 'B', 'C']
     
     results = {}
     for option in options:
         deltas = []
-        changes = []
+        all_changes = []
         
         for prompt_id in neutral_data['prompts']:
-            neutral_logprobs = [neutral_data['prompts'][prompt_id]['log_probs'][i][option] for i in range(10)]
-            biased_logprobs = [biased_data['prompts'][prompt_id]['log_probs'][i][option] for i in range(10)]
+            neutral_logprobs = neutral_data['prompts'][prompt_id]['token_logprobs']
+            biased_logprobs = biased_data['prompts'][prompt_id]['token_logprobs']
             
-            # Exclude iterations with -inf log probabilities
-            neutral_logprobs = [lp for lp in neutral_logprobs if lp != float('-inf')]
-            biased_logprobs = [lp for lp in biased_logprobs if lp != float('-inf')]
-            
-            if not neutral_logprobs or not biased_logprobs:
-                continue
-            
-            # Calculate average logprob for this prompt
-            neutral_mean = np.mean(neutral_logprobs)
-            biased_mean = np.mean(biased_logprobs)
-            
-            # Convert logprob difference to linear probability
-            delta_linear = logprob_to_linear(biased_mean) - logprob_to_linear(neutral_mean)
-            deltas.append(delta_linear)
-            
-            # Calculate changes for variance
-            neutral_linear = [logprob_to_linear(lp) for lp in neutral_logprobs]
-            biased_linear = [logprob_to_linear(lp) for lp in biased_logprobs]
-            changes.extend(np.array(biased_linear) - np.array(neutral_linear))
+            # Calculate delta for each of the 10 positions
+            for i in range(10):
+                neutral_linear = logprob_to_linear(neutral_logprobs[i][option])
+                biased_linear = logprob_to_linear(biased_logprobs[i][option])
+                delta = biased_linear - neutral_linear
+                deltas.append(delta)
+                all_changes.append(delta)
 
-        # Average delta across prompts
+        # Average delta across all prompts and positions
         results[f'delta_{option}'] = np.mean(deltas)
-        
-        # Calculate variance of changes
-        results[f'variance_change_{option}'] = np.var(changes)
+
+        # Calculate variance of the change
+        results[f'variance_change_{option}'] = np.var(all_changes)
 
     return results
 
-
 def main():
-    file_name = f"results/{MODEL}"
+    file_name = f"results/v_social_i_qa/{MODEL}"
     variations = load_data_for_variations(file_name)
     
     for variation_num, variation in enumerate(variations[1:], start=1):  # Skip neutral, start from biased variations

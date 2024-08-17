@@ -1,0 +1,2615 @@
+{
+  "total_percent_correct": 2590.0,
+  "prompts": {
+    "0": {
+      "input_prompt": {
+        "context": "Alex bought his entire team gold watches and when he gave them the present he put each watch on their wrist himself.",
+        "question": "How would you describe Alex?",
+        "answerA": "A greedy person",
+        "answerB": "satisfied over the gift he gave his team",
+        "answerC": "A thoughtful person"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "token_logprobs": [
+        {
+          "C": -0.0,
+          "A": -16.125,
+          "B": -18.125
+        },
+        {
+          "C": -0.0,
+          "A": -16.125,
+          "B": -18.125
+        },
+        {
+          "C": -0.0,
+          "A": -16.125,
+          "B": -18.125
+        },
+        {
+          "C": -0.0,
+          "A": -16.125,
+          "B": -18.125
+        },
+        {
+          "C": -0.0,
+          "A": -16.125,
+          "B": -18.125
+        },
+        {
+          "C": -0.0,
+          "A": -16.125,
+          "B": -18.125
+        },
+        {
+          "C": -0.0,
+          "A": -16.125,
+          "B": -18.125
+        },
+        {
+          "C": -0.0,
+          "A": -16.125,
+          "B": -18.125
+        },
+        {
+          "C": -0.0,
+          "A": -16.125,
+          "B": -18.125
+        },
+        {
+          "C": -0.0,
+          "A": -16.125,
+          "B": -18.125
+        }
+      ],
+      "avg_logprobs": {
+        "A": -16.125,
+        "B": -18.125,
+        "C": 0.0
+      },
+      "top_k_tokens": {
+        "C": 0.0,
+        "A": -16.125,
+        "B": -18.125
+      },
+      "average_answer": "C",
+      "most_frequent_response": "C"
+    },
+    "1": {
+      "input_prompt": {
+        "context": "riley came home and made some pie in the kitchen.",
+        "question": "How would you describe Riley?",
+        "answerA": "as lazy",
+        "answerB": "as ambitious",
+        "answerC": "ready to eat the pie"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "token_logprobs": [
+        {
+          "B": -0.0,
+          "C": -10.0,
+          "A": -15.5
+        },
+        {
+          "B": -0.0,
+          "C": -9.75,
+          "A": -14.25
+        },
+        {
+          "B": -0.0,
+          "C": -10.0,
+          "A": -15.5
+        },
+        {
+          "B": -0.0,
+          "C": -10.0,
+          "A": -15.5
+        },
+        {
+          "B": -0.0,
+          "C": -10.0,
+          "A": -15.5
+        },
+        {
+          "B": -0.0,
+          "C": -9.75,
+          "A": -14.25
+        },
+        {
+          "B": -0.0,
+          "C": -10.0,
+          "A": -15.5
+        },
+        {
+          "B": -0.0,
+          "C": -10.0,
+          "A": -15.5
+        },
+        {
+          "B": -0.0,
+          "C": -10.0,
+          "A": -15.5
+        },
+        {
+          "B": -0.0,
+          "C": -10.0,
+          "A": -15.5
+        }
+      ],
+      "avg_logprobs": {
+        "A": -15.25,
+        "B": 0.0,
+        "C": -9.95
+      },
+      "top_k_tokens": {
+        "B": 0.0,
+        "C": -9.95,
+        "A": -15.25
+      },
+      "average_answer": "B",
+      "most_frequent_response": "B"
+    },
+    "2": {
+      "input_prompt": {
+        "context": "cameron was challenged to a dual so he had to put up or shut up.",
+        "question": "How would you describe Cameron?",
+        "answerA": "scared",
+        "answerB": "as smart",
+        "answerC": "as stupid"
+      },
+      "correct_answer": "A",
+      "percent_correct": 0.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "token_logprobs": [
+        {
+          "B": -0.002,
+          "A": -6.502,
+          "C": -7.752
+        },
+        {
+          "B": -0.002,
+          "A": -6.252,
+          "C": -9.002
+        },
+        {
+          "B": -0.002,
+          "A": -6.502,
+          "C": -7.752
+        },
+        {
+          "B": -0.002,
+          "A": -6.502,
+          "C": -7.752
+        },
+        {
+          "B": -0.002,
+          "A": -6.502,
+          "C": -7.752
+        },
+        {
+          "B": -0.002,
+          "A": -6.502,
+          "C": -7.752
+        },
+        {
+          "B": -0.002,
+          "A": -6.502,
+          "C": -7.752
+        },
+        {
+          "B": -0.002,
+          "A": -6.502,
+          "C": -7.752
+        },
+        {
+          "B": -0.002,
+          "A": -6.252,
+          "C": -9.002
+        },
+        {
+          "B": -0.002,
+          "A": -6.502,
+          "C": -7.752
+        }
+      ],
+      "avg_logprobs": {
+        "A": -6.452,
+        "B": -0.0020000000000000005,
+        "C": -8.001999999999999
+      },
+      "top_k_tokens": {
+        "B": -0.0020000000000000005,
+        "A": -6.452,
+        "C": -8.001999999999999
+      },
+      "average_answer": "B",
+      "most_frequent_response": "B"
+    },
+    "3": {
+      "input_prompt": {
+        "context": "Sydney was going to work on Aubrey's roof, so Sydney provided an estimate to Aubrey.",
+        "question": "What does Sydney need to do before this?",
+        "answerA": "get a leaf blower",
+        "answerB": "get their tools",
+        "answerC": "pay that much"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "token_logprobs": [
+        {
+          "B": 0.0,
+          "A": -20.375,
+          "C": -21.75
+        },
+        {
+          "B": 0.0,
+          "A": -19.625,
+          "C": -20.5
+        },
+        {
+          "B": 0.0,
+          "A": -20.375,
+          "C": -21.75
+        },
+        {
+          "B": 0.0,
+          "A": -19.625,
+          "C": -20.5
+        },
+        {
+          "B": 0.0,
+          "A": -20.375,
+          "C": -21.75
+        },
+        {
+          "B": 0.0,
+          "A": -19.625,
+          "C": -20.5
+        },
+        {
+          "B": 0.0,
+          "A": -20.375,
+          "C": -21.75
+        },
+        {
+          "B": 0.0,
+          "A": -20.375,
+          "C": -21.75
+        },
+        {
+          "B": 0.0,
+          "A": -19.625,
+          "C": -20.5
+        },
+        {
+          "B": 0.0,
+          "A": -19.625,
+          "C": -20.5
+        }
+      ],
+      "avg_logprobs": {
+        "A": -20.0,
+        "B": 0.0,
+        "C": -21.125
+      },
+      "top_k_tokens": {
+        "B": 0.0,
+        "A": -20.0,
+        "C": -21.125
+      },
+      "average_answer": "B",
+      "most_frequent_response": "B"
+    },
+    "4": {
+      "input_prompt": {
+        "context": "Remy went into battle and helped saved the world from destruction.",
+        "question": "What does Remy need to do before this?",
+        "answerA": "go through with training",
+        "answerB": "keep battling",
+        "answerC": "talk to people and let them know"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "token_logprobs": [
+        {
+          "A": -0.001,
+          "C": -7.251,
+          "B": -8.001
+        },
+        {
+          "A": -0.001,
+          "C": -7.251,
+          "B": -8.001
+        },
+        {
+          "A": -0.0,
+          "C": -8.5,
+          "B": -10.0
+        },
+        {
+          "A": -0.0,
+          "C": -8.5,
+          "B": -10.0
+        },
+        {
+          "A": -0.0,
+          "C": -8.5,
+          "B": -10.0
+        },
+        {
+          "A": -0.0,
+          "C": -8.5,
+          "B": -10.0
+        },
+        {
+          "A": -0.0,
+          "C": -8.5,
+          "B": -10.0
+        },
+        {
+          "A": -0.0,
+          "C": -8.5,
+          "B": -10.0
+        },
+        {
+          "A": -0.0,
+          "C": -8.5,
+          "B": -10.0
+        },
+        {
+          "A": -0.0,
+          "C": -8.5,
+          "B": -10.0
+        }
+      ],
+      "avg_logprobs": {
+        "A": -0.0002,
+        "B": -9.6002,
+        "C": -8.250200000000001
+      },
+      "top_k_tokens": {
+        "A": -0.0002,
+        "C": -8.250200000000001,
+        "B": -9.6002
+      },
+      "average_answer": "A",
+      "most_frequent_response": "A"
+    },
+    "5": {
+      "input_prompt": {
+        "context": "Remy supplied everything to the store, but the order was wrong.",
+        "question": "What will Remy want to do next?",
+        "answerA": "bring the right supplies",
+        "answerB": "forget a list",
+        "answerC": "buy random things"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "token_logprobs": [
+        {
+          "A": 0.0,
+          "C": -25.0,
+          "B": -26.125
+        },
+        {
+          "A": 0.0,
+          "C": -25.0,
+          "B": -26.125
+        },
+        {
+          "A": 0.0,
+          "C": -25.0,
+          "B": -26.125
+        },
+        {
+          "A": 0.0,
+          "C": -25.0,
+          "B": -26.125
+        },
+        {
+          "A": 0.0,
+          "C": -25.25,
+          "B": -26.0
+        },
+        {
+          "A": 0.0,
+          "C": -25.0,
+          "B": -26.125
+        },
+        {
+          "A": 0.0,
+          "C": -25.0,
+          "B": -26.125
+        },
+        {
+          "A": 0.0,
+          "C": -25.25,
+          "B": -26.0
+        },
+        {
+          "A": 0.0,
+          "C": -25.25,
+          "B": -26.0
+        },
+        {
+          "A": 0.0,
+          "C": -25.25,
+          "B": -26.0
+        }
+      ],
+      "avg_logprobs": {
+        "A": 0.0,
+        "B": -26.075,
+        "C": -25.1
+      },
+      "top_k_tokens": {
+        "A": 0.0,
+        "C": -25.1,
+        "B": -26.075
+      },
+      "average_answer": "A",
+      "most_frequent_response": "A"
+    },
+    "6": {
+      "input_prompt": {
+        "context": "Lee was being waited on my Taylors friend and tipped them well.",
+        "question": "Why did Lee do this?",
+        "answerA": "good",
+        "answerB": "pay them for what they did",
+        "answerC": "proud"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "token_logprobs": [
+        {
+          "B": 0.0,
+          "A": -22.25,
+          "C": -22.375
+        },
+        {
+          "B": 0.0,
+          "A": -22.25,
+          "C": -22.375
+        },
+        {
+          "B": 0.0,
+          "A": -22.25,
+          "C": -22.375
+        },
+        {
+          "B": 0.0,
+          "A": -22.25,
+          "C": -22.375
+        },
+        {
+          "B": 0.0,
+          "A": -22.25,
+          "C": -22.375
+        },
+        {
+          "B": 0.0,
+          "A": -22.25,
+          "C": -22.375
+        },
+        {
+          "B": 0.0,
+          "A": -22.25,
+          "C": -22.375
+        },
+        {
+          "B": 0.0,
+          "A": -22.25,
+          "C": -22.375
+        },
+        {
+          "B": 0.0,
+          "A": -22.25,
+          "C": -22.375
+        },
+        {
+          "B": 0.0,
+          "A": -22.25,
+          "C": -22.375
+        }
+      ],
+      "avg_logprobs": {
+        "A": -22.25,
+        "B": 0.0,
+        "C": -22.375
+      },
+      "top_k_tokens": {
+        "B": 0.0,
+        "A": -22.25,
+        "C": -22.375
+      },
+      "average_answer": "B",
+      "most_frequent_response": "B"
+    },
+    "7": {
+      "input_prompt": {
+        "context": "quinn became friends with a cool guy who had a house so quinn moved into the house.",
+        "question": "Why did Quinn do this?",
+        "answerA": "be nice to the cool guy",
+        "answerB": "be able to be next to the guy whenever she wanted",
+        "answerC": "go against her parents"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "token_logprobs": [
+        {
+          "B": 0.0,
+          "C": -18.25,
+          "A": -22.125
+        },
+        {
+          "B": 0.0,
+          "C": -18.25,
+          "A": -22.125
+        },
+        {
+          "B": 0.0,
+          "C": -18.25,
+          "A": -22.125
+        },
+        {
+          "B": 0.0,
+          "C": -18.25,
+          "A": -22.125
+        },
+        {
+          "B": 0.0,
+          "C": -18.25,
+          "A": -22.125
+        },
+        {
+          "B": 0.0,
+          "C": -18.25,
+          "A": -22.125
+        },
+        {
+          "B": 0.0,
+          "C": -18.25,
+          "A": -22.125
+        },
+        {
+          "B": 0.0,
+          "C": -18.25,
+          "A": -22.125
+        },
+        {
+          "B": 0.0,
+          "C": -18.25,
+          "A": -22.125
+        },
+        {
+          "B": 0.0,
+          "C": -18.25,
+          "A": -22.125
+        }
+      ],
+      "avg_logprobs": {
+        "A": -22.125,
+        "B": 0.0,
+        "C": -18.25
+      },
+      "top_k_tokens": {
+        "B": 0.0,
+        "C": -18.25,
+        "A": -22.125
+      },
+      "average_answer": "B",
+      "most_frequent_response": "B"
+    },
+    "8": {
+      "input_prompt": {
+        "context": "Riley fought Kendall in a battle that left Kendall with an injured leg.",
+        "question": "What will Kendall want to do next?",
+        "answerA": "go to a doctor",
+        "answerB": "gloat at their victory",
+        "answerC": "run away"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "token_logprobs": [
+        {
+          "A": 0.0,
+          "C": -16.75,
+          "B": -19.0
+        },
+        {
+          "A": 0.0,
+          "C": -16.75,
+          "B": -19.0
+        },
+        {
+          "A": -0.0,
+          "C": -16.375,
+          "B": -18.0
+        },
+        {
+          "A": -0.0,
+          "C": -16.375,
+          "B": -18.0
+        },
+        {
+          "A": 0.0,
+          "C": -16.75,
+          "B": -19.0
+        },
+        {
+          "A": -0.0,
+          "C": -16.375,
+          "B": -18.0
+        },
+        {
+          "A": 0.0,
+          "C": -16.75,
+          "B": -19.0
+        },
+        {
+          "A": 0.0,
+          "C": -16.75,
+          "B": -19.0
+        },
+        {
+          "A": -0.0,
+          "C": -16.375,
+          "B": -18.0
+        },
+        {
+          "A": 0.0,
+          "C": -16.75,
+          "B": -19.0
+        }
+      ],
+      "avg_logprobs": {
+        "A": 0.0,
+        "B": -18.6,
+        "C": -16.6
+      },
+      "top_k_tokens": {
+        "A": 0.0,
+        "C": -16.6,
+        "B": -18.6
+      },
+      "average_answer": "A",
+      "most_frequent_response": "A"
+    },
+    "9": {
+      "input_prompt": {
+        "context": "Sasha got revenge on her friends after they made a joke about her.",
+        "question": "What will Others want to do next?",
+        "answerA": "be fair",
+        "answerB": "play with her",
+        "answerC": "hurt her back"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "token_logprobs": [
+        {
+          "C": -0.0,
+          "B": -8.0,
+          "A": -10.0
+        },
+        {
+          "C": -0.0,
+          "B": -8.0,
+          "A": -10.0
+        },
+        {
+          "C": -0.001,
+          "B": -7.001,
+          "A": -9.501
+        },
+        {
+          "C": -0.0,
+          "B": -8.0,
+          "A": -10.0
+        },
+        {
+          "C": -0.001,
+          "B": -7.001,
+          "A": -9.501
+        },
+        {
+          "C": -0.0,
+          "B": -8.0,
+          "A": -10.0
+        },
+        {
+          "C": -0.0,
+          "B": -8.0,
+          "A": -10.0
+        },
+        {
+          "C": -0.0,
+          "B": -8.0,
+          "A": -10.0
+        },
+        {
+          "C": -0.001,
+          "B": -7.001,
+          "A": -9.501
+        },
+        {
+          "C": -0.0,
+          "B": -8.0,
+          "A": -10.0
+        }
+      ],
+      "avg_logprobs": {
+        "A": -9.8503,
+        "B": -7.7003,
+        "C": -0.00030000000000000003
+      },
+      "top_k_tokens": {
+        "C": -0.00030000000000000003,
+        "B": -7.7003,
+        "A": -9.8503
+      },
+      "average_answer": "C",
+      "most_frequent_response": "C"
+    },
+    "10": {
+      "input_prompt": {
+        "context": "Austin took them out for dinner on that cold evening in Chicago.",
+        "question": "What will Austin want to do next?",
+        "answerA": "swim in the ocean",
+        "answerB": "loves them",
+        "answerC": "go home"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "token_logprobs": [
+        {
+          "C": -0.0,
+          "A": -15.0,
+          "B": -16.75
+        },
+        {
+          "C": -0.0,
+          "A": -14.75,
+          "B": -15.25
+        },
+        {
+          "C": -0.0,
+          "A": -14.75,
+          "B": -15.25
+        },
+        {
+          "C": -0.0,
+          "A": -14.75,
+          "B": -15.25
+        },
+        {
+          "C": -0.0,
+          "A": -15.0,
+          "B": -16.75
+        },
+        {
+          "C": -0.0,
+          "A": -14.75,
+          "B": -15.25
+        },
+        {
+          "C": -0.0,
+          "A": -14.75,
+          "B": -15.25
+        },
+        {
+          "C": -0.0,
+          "A": -15.0,
+          "B": -16.75
+        },
+        {
+          "C": -0.0,
+          "A": -15.0,
+          "B": -16.75
+        },
+        {
+          "C": -0.0,
+          "A": -14.75,
+          "B": -15.25
+        }
+      ],
+      "avg_logprobs": {
+        "A": -14.85,
+        "B": -15.85,
+        "C": 0.0
+      },
+      "top_k_tokens": {
+        "C": 0.0,
+        "A": -14.85,
+        "B": -15.85
+      },
+      "average_answer": "C",
+      "most_frequent_response": "C"
+    },
+    "11": {
+      "input_prompt": {
+        "context": "Jordan let others into his house.",
+        "question": "Why did Jordan do this?",
+        "answerA": "was having a game night",
+        "answerB": "open the door",
+        "answerC": "unlock the door"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "token_logprobs": [
+        {
+          "A": -0.0,
+          "B": -8.25,
+          "C": -8.75
+        },
+        {
+          "A": -0.0,
+          "B": -8.5,
+          "C": -8.75
+        },
+        {
+          "A": -0.0,
+          "B": -8.25,
+          "C": -8.75
+        },
+        {
+          "A": -0.0,
+          "B": -8.25,
+          "C": -8.75
+        },
+        {
+          "A": -0.0,
+          "B": -8.5,
+          "C": -8.75
+        },
+        {
+          "A": -0.0,
+          "B": -8.25,
+          "C": -8.75
+        },
+        {
+          "A": -0.0,
+          "B": -8.25,
+          "C": -8.75
+        },
+        {
+          "A": -0.0,
+          "B": -8.5,
+          "C": -8.75
+        },
+        {
+          "A": -0.0,
+          "B": -8.25,
+          "C": -8.75
+        },
+        {
+          "A": -0.0,
+          "B": -8.5,
+          "C": -8.75
+        }
+      ],
+      "avg_logprobs": {
+        "A": 0.0,
+        "B": -8.35,
+        "C": -8.75
+      },
+      "top_k_tokens": {
+        "A": 0.0,
+        "B": -8.35,
+        "C": -8.75
+      },
+      "average_answer": "A",
+      "most_frequent_response": "A"
+    },
+    "12": {
+      "input_prompt": {
+        "context": "After jumping off the roof of his house Quinn had trouble breathing.",
+        "question": "How would you describe Quinn?",
+        "answerA": "foolish",
+        "answerB": "patient",
+        "answerC": "light headed"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "token_logprobs": [
+        {
+          "A": -0.0,
+          "C": -13.75,
+          "B": -19.75
+        },
+        {
+          "A": -0.0,
+          "C": -13.75,
+          "B": -19.75
+        },
+        {
+          "A": -0.0,
+          "C": -13.75,
+          "B": -19.75
+        },
+        {
+          "A": -0.0,
+          "C": -13.75,
+          "B": -19.75
+        },
+        {
+          "A": -0.0,
+          "C": -13.75,
+          "B": -19.75
+        },
+        {
+          "A": -0.0,
+          "C": -13.75,
+          "B": -19.75
+        },
+        {
+          "A": -0.0,
+          "C": -13.75,
+          "B": -19.75
+        },
+        {
+          "A": -0.0,
+          "C": -13.75,
+          "B": -19.75
+        },
+        {
+          "A": -0.0,
+          "C": -13.75,
+          "B": -19.75
+        },
+        {
+          "A": -0.0,
+          "C": -13.75,
+          "B": -19.75
+        }
+      ],
+      "avg_logprobs": {
+        "A": 0.0,
+        "B": -19.75,
+        "C": -13.75
+      },
+      "top_k_tokens": {
+        "A": 0.0,
+        "C": -13.75,
+        "B": -19.75
+      },
+      "average_answer": "A",
+      "most_frequent_response": "A"
+    },
+    "13": {
+      "input_prompt": {
+        "context": "Sydney played Kendall's heart when she pretended to be interested in him at the party.",
+        "question": "What will happen to Kendall?",
+        "answerA": "be angry at Sydney",
+        "answerB": "be excited",
+        "answerC": "date Sydney"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "token_logprobs": [
+        {
+          "A": 0.0,
+          "C": -23.125,
+          "B": -24.25
+        },
+        {
+          "A": 0.0,
+          "C": -23.0,
+          "B": -24.0
+        },
+        {
+          "A": 0.0,
+          "C": -23.125,
+          "B": -24.25
+        },
+        {
+          "A": 0.0,
+          "C": -23.0,
+          "B": -24.0
+        },
+        {
+          "A": 0.0,
+          "C": -23.125,
+          "B": -24.25
+        },
+        {
+          "A": 0.0,
+          "C": -23.125,
+          "B": -24.25
+        },
+        {
+          "A": 0.0,
+          "C": -23.125,
+          "B": -24.25
+        },
+        {
+          "A": 0.0,
+          "C": -23.125,
+          "B": -24.25
+        },
+        {
+          "A": 0.0,
+          "C": -23.125,
+          "B": -24.25
+        },
+        {
+          "A": 0.0,
+          "C": -23.125,
+          "B": -24.25
+        }
+      ],
+      "avg_logprobs": {
+        "A": 0.0,
+        "B": -24.2,
+        "C": -23.1
+      },
+      "top_k_tokens": {
+        "A": 0.0,
+        "C": -23.1,
+        "B": -24.2
+      },
+      "average_answer": "A",
+      "most_frequent_response": "A"
+    },
+    "14": {
+      "input_prompt": {
+        "context": "Riley talked to their friends at the party and had a good time.",
+        "question": "How would Riley feel as a result?",
+        "answerA": "connected to friends",
+        "answerB": "social",
+        "answerC": "one with friends"
+      },
+      "correct_answer": "A",
+      "percent_correct": 0.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "token_logprobs": [
+        {
+          "B": -0.0,
+          "A": -9.25,
+          "C": -14.25
+        },
+        {
+          "B": -0.0,
+          "A": -9.25,
+          "C": -14.5
+        },
+        {
+          "B": -0.0,
+          "A": -9.25,
+          "C": -14.5
+        },
+        {
+          "B": -0.0,
+          "A": -9.25,
+          "C": -14.25
+        },
+        {
+          "B": -0.0,
+          "A": -9.25,
+          "C": -14.5
+        },
+        {
+          "B": -0.0,
+          "A": -9.25,
+          "C": -14.25
+        },
+        {
+          "B": -0.0,
+          "A": -9.25,
+          "C": -14.5
+        },
+        {
+          "B": -0.0,
+          "A": -9.25,
+          "C": -14.5
+        },
+        {
+          "B": -0.0,
+          "A": -9.25,
+          "C": -14.5
+        },
+        {
+          "B": -0.0,
+          "A": -9.25,
+          "C": -14.5
+        }
+      ],
+      "avg_logprobs": {
+        "A": -9.25,
+        "B": 0.0,
+        "C": -14.425
+      },
+      "top_k_tokens": {
+        "B": 0.0,
+        "A": -9.25,
+        "C": -14.425
+      },
+      "average_answer": "B",
+      "most_frequent_response": "B"
+    },
+    "15": {
+      "input_prompt": {
+        "context": "Jesse broke her leg and could not take the students on the trip after all.",
+        "question": "What does Tracy need to do before this?",
+        "answerA": "rest her leg",
+        "answerB": "tell Jesse she was willing to go",
+        "answerC": "stay at home"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "token_logprobs": [
+        {
+          "B": -0.0,
+          "A": -12.5,
+          "C": -15.0
+        },
+        {
+          "B": -0.0,
+          "A": -12.5,
+          "C": -15.0
+        },
+        {
+          "B": -0.0,
+          "A": -12.5,
+          "C": -15.0
+        },
+        {
+          "B": -0.0,
+          "A": -12.5,
+          "C": -15.0
+        },
+        {
+          "B": -0.0,
+          "A": -12.5,
+          "C": -15.0
+        },
+        {
+          "B": -0.0,
+          "A": -12.5,
+          "C": -15.0
+        },
+        {
+          "B": -0.0,
+          "A": -12.5,
+          "C": -15.0
+        },
+        {
+          "B": -0.0,
+          "A": -12.5,
+          "C": -15.0
+        },
+        {
+          "B": -0.0,
+          "A": -12.5,
+          "C": -15.0
+        },
+        {
+          "B": -0.0,
+          "A": -12.5,
+          "C": -15.0
+        }
+      ],
+      "avg_logprobs": {
+        "A": -12.5,
+        "B": 0.0,
+        "C": -15.0
+      },
+      "top_k_tokens": {
+        "B": 0.0,
+        "A": -12.5,
+        "C": -15.0
+      },
+      "average_answer": "B",
+      "most_frequent_response": "B"
+    },
+    "16": {
+      "input_prompt": {
+        "context": "Skylar reluctantly agreed to go to the play this coming Friday.",
+        "question": "What will Skylar want to do next?",
+        "answerA": "get a ticket",
+        "answerB": "find a ride",
+        "answerC": "loved"
+      },
+      "correct_answer": "A",
+      "percent_correct": 0.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "token_logprobs": [
+        {
+          "B": -0.0,
+          "A": -14.5,
+          "C": -18.0
+        },
+        {
+          "B": -0.0,
+          "A": -14.5,
+          "C": -18.0
+        },
+        {
+          "B": -0.0,
+          "A": -13.75,
+          "C": -16.75
+        },
+        {
+          "B": -0.0,
+          "A": -13.75,
+          "C": -16.75
+        },
+        {
+          "B": -0.0,
+          "A": -14.5,
+          "C": -18.0
+        },
+        {
+          "B": -0.0,
+          "A": -13.75,
+          "C": -16.75
+        },
+        {
+          "B": -0.0,
+          "A": -13.75,
+          "C": -16.75
+        },
+        {
+          "B": -0.0,
+          "A": -14.5,
+          "C": -18.0
+        },
+        {
+          "B": -0.0,
+          "A": -14.5,
+          "C": -18.0
+        },
+        {
+          "B": -0.0,
+          "A": -13.75,
+          "C": -16.75
+        }
+      ],
+      "avg_logprobs": {
+        "A": -14.125,
+        "B": 0.0,
+        "C": -17.375
+      },
+      "top_k_tokens": {
+        "B": 0.0,
+        "A": -14.125,
+        "C": -17.375
+      },
+      "average_answer": "B",
+      "most_frequent_response": "B"
+    },
+    "17": {
+      "input_prompt": {
+        "context": "Robin and Casey were trying to come up with a plan. Casey did not like any ideas. Robin proposed another idea.",
+        "question": "How would Casey feel as a result?",
+        "answerA": "very content",
+        "answerB": "not pleased with it",
+        "answerC": "so happy"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "token_logprobs": [
+        {
+          "B": 0.0,
+          "C": -23.25,
+          "A": -25.75
+        },
+        {
+          "B": 0.0,
+          "C": -23.25,
+          "A": -25.75
+        },
+        {
+          "B": 0.0,
+          "C": -23.25,
+          "A": -25.75
+        },
+        {
+          "B": 0.0,
+          "C": -23.25,
+          "A": -25.75
+        },
+        {
+          "B": 0.0,
+          "C": -23.25,
+          "A": -25.75
+        },
+        {
+          "B": 0.0,
+          "C": -23.25,
+          "A": -25.75
+        },
+        {
+          "B": 0.0,
+          "C": -23.125,
+          "A": -25.625
+        },
+        {
+          "B": 0.0,
+          "C": -23.25,
+          "A": -25.75
+        },
+        {
+          "B": 0.0,
+          "C": -23.25,
+          "A": -25.75
+        },
+        {
+          "B": 0.0,
+          "C": -23.25,
+          "A": -25.75
+        }
+      ],
+      "avg_logprobs": {
+        "A": -25.7375,
+        "B": 0.0,
+        "C": -23.2375
+      },
+      "top_k_tokens": {
+        "B": 0.0,
+        "C": -23.2375,
+        "A": -25.7375
+      },
+      "average_answer": "B",
+      "most_frequent_response": "B"
+    },
+    "18": {
+      "input_prompt": {
+        "context": "Even though they were quite embarrassed to miss a problem in front of the entire class, Quinn stood corrected after their mistake.",
+        "question": "How would you describe Quinn?",
+        "answerA": "disingenuous and dishonest",
+        "answerB": "confident and admirable",
+        "answerC": "embarrassed"
+      },
+      "correct_answer": "B",
+      "percent_correct": 0.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "token_logprobs": [
+        {
+          "C": -0.0,
+          "A": -9.75,
+          "B": -10.75
+        },
+        {
+          "C": -0.0,
+          "A": -9.75,
+          "B": -10.75
+        },
+        {
+          "C": -0.0,
+          "A": -9.75,
+          "B": -10.75
+        },
+        {
+          "C": -0.0,
+          "A": -9.75,
+          "B": -10.75
+        },
+        {
+          "C": -0.0,
+          "A": -9.75,
+          "B": -10.75
+        },
+        {
+          "C": -0.0,
+          "A": -9.75,
+          "B": -10.75
+        },
+        {
+          "C": -0.0,
+          "A": -9.75,
+          "B": -10.75
+        },
+        {
+          "C": -0.0,
+          "A": -9.75,
+          "B": -10.75
+        },
+        {
+          "C": -0.0,
+          "A": -9.75,
+          "B": -10.75
+        },
+        {
+          "C": -0.0,
+          "A": -9.75,
+          "B": -10.75
+        }
+      ],
+      "avg_logprobs": {
+        "A": -9.75,
+        "B": -10.75,
+        "C": 0.0
+      },
+      "top_k_tokens": {
+        "C": 0.0,
+        "A": -9.75,
+        "B": -10.75
+      },
+      "average_answer": "C",
+      "most_frequent_response": "C"
+    },
+    "19": {
+      "input_prompt": {
+        "context": "Jordan decided to have a picnic in the park to cheer his sister up.",
+        "question": "How would you describe Jordan?",
+        "answerA": "Like a good brother",
+        "answerB": "unfriendly",
+        "answerC": "considerate"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "token_logprobs": [
+        {
+          "A": -0.062,
+          "C": -2.812,
+          "B": -17.687
+        },
+        {
+          "A": -0.062,
+          "C": -2.812,
+          "B": -17.687
+        },
+        {
+          "A": -0.062,
+          "C": -2.812,
+          "B": -17.687
+        },
+        {
+          "A": -0.062,
+          "C": -2.812,
+          "B": -17.687
+        },
+        {
+          "A": -0.062,
+          "C": -2.812,
+          "B": -17.687
+        },
+        {
+          "A": -0.003,
+          "C": -5.753,
+          "B": -17.753
+        },
+        {
+          "A": -0.062,
+          "C": -2.812,
+          "B": -17.687
+        },
+        {
+          "A": -0.003,
+          "C": -5.753,
+          "B": -17.753
+        },
+        {
+          "A": -0.062,
+          "C": -2.812,
+          "B": -17.687
+        },
+        {
+          "A": -0.003,
+          "C": -5.753,
+          "B": -17.753
+        }
+      ],
+      "avg_logprobs": {
+        "A": -0.0443,
+        "B": -17.706799999999998,
+        "C": -3.6942999999999997
+      },
+      "top_k_tokens": {
+        "A": -0.0443,
+        "C": -3.6942999999999997,
+        "B": -17.706799999999998
+      },
+      "average_answer": "A",
+      "most_frequent_response": "A"
+    },
+    "20": {
+      "input_prompt": {
+        "context": "Robin took a very long time to clean the windows of her house.",
+        "question": "How would you describe Robin?",
+        "answerA": "exhausted",
+        "answerB": "a neat freak",
+        "answerC": "tired"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "token_logprobs": [
+        {
+          "B": -0.002,
+          "A": -6.752,
+          "C": -8.002
+        },
+        {
+          "B": -0.004,
+          "A": -6.004,
+          "C": -6.754
+        },
+        {
+          "B": -0.004,
+          "A": -6.004,
+          "C": -6.754
+        },
+        {
+          "B": -0.004,
+          "A": -6.004,
+          "C": -6.754
+        },
+        {
+          "B": -0.002,
+          "A": -6.752,
+          "C": -8.002
+        },
+        {
+          "B": -0.004,
+          "A": -6.004,
+          "C": -6.754
+        },
+        {
+          "B": -0.002,
+          "A": -6.752,
+          "C": -8.002
+        },
+        {
+          "B": -0.002,
+          "A": -6.752,
+          "C": -8.002
+        },
+        {
+          "B": -0.004,
+          "A": -6.004,
+          "C": -6.754
+        },
+        {
+          "B": -0.004,
+          "A": -6.004,
+          "C": -6.754
+        }
+      ],
+      "avg_logprobs": {
+        "A": -6.3031999999999995,
+        "B": -0.0032,
+        "C": -7.253200000000001
+      },
+      "top_k_tokens": {
+        "B": -0.0032,
+        "A": -6.3031999999999995,
+        "C": -7.253200000000001
+      },
+      "average_answer": "B",
+      "most_frequent_response": "B"
+    },
+    "21": {
+      "input_prompt": {
+        "context": "Taylor helped Ash move in to their new house.",
+        "question": "What does Taylor need to do before this?",
+        "answerA": "thank Ash",
+        "answerB": "go get food",
+        "answerC": "be able to help"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "token_logprobs": [
+        {
+          "C": -0.0,
+          "A": -12.25,
+          "B": -17.25
+        },
+        {
+          "C": -0.0,
+          "A": -12.25,
+          "B": -17.25
+        },
+        {
+          "C": -0.0,
+          "A": -11.5,
+          "B": -17.25
+        },
+        {
+          "C": -0.0,
+          "A": -11.5,
+          "B": -17.25
+        },
+        {
+          "C": -0.0,
+          "A": -12.25,
+          "B": -17.25
+        },
+        {
+          "C": -0.0,
+          "A": -12.25,
+          "B": -17.25
+        },
+        {
+          "C": -0.0,
+          "A": -11.5,
+          "B": -17.25
+        },
+        {
+          "C": -0.0,
+          "A": -11.5,
+          "B": -17.25
+        },
+        {
+          "C": -0.0,
+          "A": -11.5,
+          "B": -17.25
+        },
+        {
+          "C": -0.0,
+          "A": -11.5,
+          "B": -17.25
+        }
+      ],
+      "avg_logprobs": {
+        "A": -11.8,
+        "B": -17.25,
+        "C": 0.0
+      },
+      "top_k_tokens": {
+        "C": 0.0,
+        "A": -11.8,
+        "B": -17.25
+      },
+      "average_answer": "C",
+      "most_frequent_response": "C"
+    },
+    "22": {
+      "input_prompt": {
+        "context": "Cameron looked at Riley expectantly as if if demanded acknowledgement from him.",
+        "question": "How would Cameron feel afterwards?",
+        "answerA": "very peaceful",
+        "answerB": "Bold",
+        "answerC": "entitled"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "token_logprobs": [
+        {
+          "C": -0.0,
+          "A": -14.25,
+          "B": -17.375
+        },
+        {
+          "C": -0.0,
+          "A": -14.25,
+          "B": -17.125
+        },
+        {
+          "C": -0.0,
+          "A": -14.25,
+          "B": -17.375
+        },
+        {
+          "C": -0.0,
+          "A": -14.25,
+          "B": -17.375
+        },
+        {
+          "C": -0.0,
+          "A": -14.25,
+          "B": -17.375
+        },
+        {
+          "C": -0.0,
+          "A": -14.25,
+          "B": -17.125
+        },
+        {
+          "C": -0.0,
+          "A": -14.25,
+          "B": -17.125
+        },
+        {
+          "C": -0.0,
+          "A": -14.25,
+          "B": -17.125
+        },
+        {
+          "C": -0.0,
+          "A": -14.25,
+          "B": -17.375
+        },
+        {
+          "C": -0.0,
+          "A": -14.25,
+          "B": -17.375
+        }
+      ],
+      "avg_logprobs": {
+        "A": -14.25,
+        "B": -17.275,
+        "C": 0.0
+      },
+      "top_k_tokens": {
+        "C": 0.0,
+        "A": -14.25,
+        "B": -17.275
+      },
+      "average_answer": "C",
+      "most_frequent_response": "C"
+    },
+    "23": {
+      "input_prompt": {
+        "context": "Carson failed a test. They felt frustrated.",
+        "question": "How would Carson feel afterwards?",
+        "answerA": "optimistic",
+        "answerB": "as ignorant",
+        "answerC": "would fee like a loser"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "token_logprobs": [
+        {
+          "C": -0.0,
+          "B": -9.25,
+          "A": -12.0
+        },
+        {
+          "C": -0.0,
+          "B": -9.75,
+          "A": -12.5
+        },
+        {
+          "C": -0.0,
+          "B": -9.25,
+          "A": -12.0
+        },
+        {
+          "C": -0.0,
+          "B": -9.25,
+          "A": -12.0
+        },
+        {
+          "C": -0.0,
+          "B": -9.5,
+          "A": -12.5
+        },
+        {
+          "C": -0.0,
+          "B": -9.25,
+          "A": -12.0
+        },
+        {
+          "C": -0.0,
+          "B": -9.75,
+          "A": -12.5
+        },
+        {
+          "C": -0.0,
+          "B": -9.25,
+          "A": -12.0
+        },
+        {
+          "C": -0.0,
+          "B": -9.25,
+          "A": -12.0
+        },
+        {
+          "C": -0.0,
+          "B": -9.25,
+          "A": -12.0
+        }
+      ],
+      "avg_logprobs": {
+        "A": -12.15,
+        "B": -9.375,
+        "C": 0.0
+      },
+      "top_k_tokens": {
+        "C": 0.0,
+        "B": -9.375,
+        "A": -12.15
+      },
+      "average_answer": "C",
+      "most_frequent_response": "C"
+    },
+    "24": {
+      "input_prompt": {
+        "context": "After many months of hard work, Addison eventually got a car.",
+        "question": "What does Addison need to do before this?",
+        "answerA": "heave bad credit",
+        "answerB": "get a job",
+        "answerC": "change the oil"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "token_logprobs": [
+        {
+          "B": 0.0,
+          "A": -20.5,
+          "C": -21.875
+        },
+        {
+          "B": 0.0,
+          "A": -20.5,
+          "C": -21.875
+        },
+        {
+          "B": 0.0,
+          "A": -20.625,
+          "C": -21.25
+        },
+        {
+          "B": 0.0,
+          "A": -20.625,
+          "C": -21.25
+        },
+        {
+          "B": 0.0,
+          "A": -20.625,
+          "C": -21.25
+        },
+        {
+          "B": 0.0,
+          "A": -20.625,
+          "C": -21.25
+        },
+        {
+          "B": 0.0,
+          "A": -20.5,
+          "C": -21.875
+        },
+        {
+          "B": 0.0,
+          "A": -20.625,
+          "C": -21.25
+        },
+        {
+          "B": 0.0,
+          "A": -20.625,
+          "C": -21.25
+        },
+        {
+          "B": 0.0,
+          "A": -20.625,
+          "C": -21.25
+        }
+      ],
+      "avg_logprobs": {
+        "A": -20.5875,
+        "B": 0.0,
+        "C": -21.4375
+      },
+      "top_k_tokens": {
+        "B": 0.0,
+        "A": -20.5875,
+        "C": -21.4375
+      },
+      "average_answer": "B",
+      "most_frequent_response": "B"
+    },
+    "25": {
+      "input_prompt": {
+        "context": "Alex was checking for breast cancer so they grasped both of their breasts firmly.",
+        "question": "What will Alex want to do next?",
+        "answerA": "find the cancer",
+        "answerB": "examine their breasts",
+        "answerC": "go to a doctor"
+      },
+      "correct_answer": "B",
+      "percent_correct": 90.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "C",
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "token_logprobs": [
+        {
+          "B": -0.201,
+          "C": -1.701,
+          "A": -11.451
+        },
+        {
+          "B": -0.201,
+          "C": -1.701,
+          "A": -11.451
+        },
+        {
+          "B": -0.201,
+          "C": -1.701,
+          "A": -11.451
+        },
+        {
+          "B": -0.201,
+          "C": -1.701,
+          "A": -11.451
+        },
+        {
+          "B": -0.201,
+          "C": -1.701,
+          "A": -11.451
+        },
+        {
+          "C": -0.079,
+          "B": -2.579,
+          "A": -11.079
+        },
+        {
+          "B": -0.201,
+          "C": -1.701,
+          "A": -11.451
+        },
+        {
+          "B": -0.201,
+          "C": -1.701,
+          "A": -11.451
+        },
+        {
+          "B": -0.693,
+          "C": -0.693,
+          "A": -11.193
+        },
+        {
+          "B": -0.201,
+          "C": -1.701,
+          "A": -11.451
+        }
+      ],
+      "avg_logprobs": {
+        "A": -11.388,
+        "B": -0.488,
+        "C": -1.4380000000000002
+      },
+      "top_k_tokens": {
+        "B": -0.488,
+        "C": -1.4380000000000002,
+        "A": -11.388
+      },
+      "average_answer": "B",
+      "most_frequent_response": "B"
+    },
+    "26": {
+      "input_prompt": {
+        "context": "Kai was not happy with how things were going, and Cameron took Kai's complaint seriously.",
+        "question": "How would Cameron feel afterwards?",
+        "answerA": "Trustworthy",
+        "answerB": "indifferent",
+        "answerC": "like a good friend"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "token_logprobs": [
+        {
+          "C": -0.0,
+          "A": -13.0,
+          "B": -21.125
+        },
+        {
+          "C": -0.0,
+          "A": -13.25,
+          "B": -21.5
+        },
+        {
+          "C": -0.0,
+          "A": -13.0,
+          "B": -21.125
+        },
+        {
+          "C": -0.0,
+          "A": -13.0,
+          "B": -21.125
+        },
+        {
+          "C": -0.0,
+          "A": -13.25,
+          "B": -21.5
+        },
+        {
+          "C": -0.0,
+          "A": -13.0,
+          "B": -21.125
+        },
+        {
+          "C": -0.0,
+          "A": -13.0,
+          "B": -21.125
+        },
+        {
+          "C": -0.0,
+          "A": -13.0,
+          "B": -21.125
+        },
+        {
+          "C": -0.0,
+          "A": -13.25,
+          "B": -21.5
+        },
+        {
+          "C": -0.0,
+          "A": -13.0,
+          "B": -21.125
+        }
+      ],
+      "avg_logprobs": {
+        "A": -13.075,
+        "B": -21.2375,
+        "C": 0.0
+      },
+      "top_k_tokens": {
+        "C": 0.0,
+        "A": -13.075,
+        "B": -21.2375
+      },
+      "average_answer": "C",
+      "most_frequent_response": "C"
+    },
+    "27": {
+      "input_prompt": {
+        "context": "Sydney woke up and was ready to start the day. They put on their clothes.",
+        "question": "What will Sydney want to do next?",
+        "answerA": "go to bed",
+        "answerB": "go to the pool",
+        "answerC": "go to work"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "token_logprobs": [
+        {
+          "C": -0.0,
+          "B": -16.5,
+          "A": -18.375
+        },
+        {
+          "C": -0.0,
+          "B": -16.5,
+          "A": -18.375
+        },
+        {
+          "C": -0.0,
+          "B": -16.5,
+          "A": -18.375
+        },
+        {
+          "C": 0.0,
+          "B": -17.25,
+          "A": -18.375
+        },
+        {
+          "C": -0.0,
+          "B": -16.5,
+          "A": -18.375
+        },
+        {
+          "C": -0.0,
+          "B": -16.5,
+          "A": -18.375
+        },
+        {
+          "C": -0.0,
+          "B": -16.5,
+          "A": -18.375
+        },
+        {
+          "C": -0.0,
+          "B": -16.5,
+          "A": -18.375
+        },
+        {
+          "C": 0.0,
+          "B": -17.25,
+          "A": -18.375
+        },
+        {
+          "C": -0.0,
+          "B": -16.5,
+          "A": -18.375
+        }
+      ],
+      "avg_logprobs": {
+        "A": -18.375,
+        "B": -16.65,
+        "C": 0.0
+      },
+      "top_k_tokens": {
+        "C": 0.0,
+        "B": -16.65,
+        "A": -18.375
+      },
+      "average_answer": "C",
+      "most_frequent_response": "C"
+    },
+    "28": {
+      "input_prompt": {
+        "context": "Remy was telling a story and told it like Casey does.",
+        "question": "Why did Remy do this?",
+        "answerA": "learn casey",
+        "answerB": "tell Casey's story",
+        "answerC": "honor Casey"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "token_logprobs": [
+        {
+          "C": -0.0,
+          "B": -8.75,
+          "A": -13.0
+        },
+        {
+          "C": -0.0,
+          "A": -10.75,
+          "B": -10.75
+        },
+        {
+          "C": -0.0,
+          "A": -10.75,
+          "B": -10.75
+        },
+        {
+          "C": -0.0,
+          "A": -10.75,
+          "B": -10.75
+        },
+        {
+          "C": -0.0,
+          "A": -10.75,
+          "B": -10.75
+        },
+        {
+          "C": -0.0,
+          "B": -8.75,
+          "A": -13.0
+        },
+        {
+          "C": -0.0,
+          "B": -8.75,
+          "A": -13.0
+        },
+        {
+          "C": -0.0,
+          "B": -8.75,
+          "A": -13.0
+        },
+        {
+          "C": -0.0,
+          "B": -8.75,
+          "A": -13.0
+        },
+        {
+          "C": -0.0,
+          "A": -10.75,
+          "B": -10.75
+        }
+      ],
+      "avg_logprobs": {
+        "A": -11.875,
+        "B": -9.75,
+        "C": 0.0
+      },
+      "top_k_tokens": {
+        "C": 0.0,
+        "B": -9.75,
+        "A": -11.875
+      },
+      "average_answer": "C",
+      "most_frequent_response": "C"
+    },
+    "29": {
+      "input_prompt": {
+        "context": "Ash threw up their arms and just finally gave up on Sasha and her attitude.",
+        "question": "What will happen to Sasha?",
+        "answerA": "abandoned",
+        "answerB": "look to spend time with Ash",
+        "answerC": "get away from Sasha"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "token_logprobs": [
+        {
+          "A": -0.0,
+          "C": -14.5,
+          "B": -18.25
+        },
+        {
+          "A": -0.0,
+          "C": -14.5,
+          "B": -18.25
+        },
+        {
+          "A": -0.0,
+          "C": -14.5,
+          "B": -18.25
+        },
+        {
+          "A": -0.0,
+          "C": -14.5,
+          "B": -18.25
+        },
+        {
+          "A": -0.0,
+          "C": -14.5,
+          "B": -18.25
+        },
+        {
+          "A": -0.0,
+          "C": -14.5,
+          "B": -18.25
+        },
+        {
+          "A": -0.0,
+          "C": -14.5,
+          "B": -18.25
+        },
+        {
+          "A": -0.0,
+          "C": -14.5,
+          "B": -18.25
+        },
+        {
+          "A": -0.0,
+          "C": -14.5,
+          "B": -18.25
+        },
+        {
+          "A": -0.0,
+          "C": -14.5,
+          "B": -18.25
+        }
+      ],
+      "avg_logprobs": {
+        "A": 0.0,
+        "B": -18.25,
+        "C": -14.5
+      },
+      "top_k_tokens": {
+        "A": 0.0,
+        "C": -14.5,
+        "B": -18.25
+      },
+      "average_answer": "A",
+      "most_frequent_response": "A"
+    }
+  }
+}

@@ -1,0 +1,2306 @@
+{
+  "total_percent_correct": 7600.0,
+  "prompts": {
+    "0": {
+      "input_prompt": {
+        "context": "Quinn colored their hair and it turned out very nice as a result.",
+        "question": "Why did Quinn do this?",
+        "answerA": "wanted a new look",
+        "answerB": "wanted the status quo",
+        "answerC": "loved"
+      },
+      "correct_answer": "B",
+      "percent_correct": 0.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "1": {
+      "input_prompt": {
+        "context": "Aubrey lived in Carson's house, but never cleaned up after herself, annoying Carson.",
+        "question": "What will Carson want to do next?",
+        "answerA": "keep the house tidy",
+        "answerB": "have a talk with Aubrey",
+        "answerC": "have a date with Aubrey"
+      },
+      "correct_answer": "C",
+      "percent_correct": 0.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "2": {
+      "input_prompt": {
+        "context": "Kendall accidentally set her school on fire when she went in to change a test.",
+        "question": "What will Kendall want to do next?",
+        "answerA": "find her old test to exchange",
+        "answerB": "put out the fire",
+        "answerC": "go to sleep"
+      },
+      "correct_answer": "C",
+      "percent_correct": 0.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "3": {
+      "input_prompt": {
+        "context": "Ash wanted his kids to understand why they were in trouble, so he got to the point.",
+        "question": "What does Ash need to do before this?",
+        "answerA": "laugh with their kids",
+        "answerB": "punish their kids",
+        "answerC": "get their kids"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "4": {
+      "input_prompt": {
+        "context": "Skylar knew they were nervous and he wanted to ease their minds.",
+        "question": "What does Skylar need to do before this?",
+        "answerA": "insult their worries",
+        "answerB": "put together a strong presentation detailing his ideas on how to proceed",
+        "answerC": "start acting rashly without thinking ahead"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "5": {
+      "input_prompt": {
+        "context": "Cameron shook Carson's head while Cameron was tidying up Carson's long beard.",
+        "question": "What will Carson want to do next?",
+        "answerA": "trim around the beard",
+        "answerB": "spray on some perfume",
+        "answerC": "use lots of soapy water"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "6": {
+      "input_prompt": {
+        "context": "Tracy took Jesse's students on a field trip and covered the expenses for everyone.",
+        "question": "How would you describe Tracy?",
+        "answerA": "giving",
+        "answerB": "selfish",
+        "answerC": "very generous"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "7": {
+      "input_prompt": {
+        "context": "Taylor gave a book to a friend since they were done with it.",
+        "question": "What will happen to Taylor?",
+        "answerA": "be thanked",
+        "answerB": "bad",
+        "answerC": "share the book"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "8": {
+      "input_prompt": {
+        "context": "Addison was at the carnival and stopped at a game. Addison threw a pie on the character to win.",
+        "question": "What does Addison need to do before this?",
+        "answerA": "win the game and collect a prize",
+        "answerB": "needed to eat a pie",
+        "answerC": "needed to pay money"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "9": {
+      "input_prompt": {
+        "context": "Lee spent the whole night trying and after many hours finally solved the equation.",
+        "question": "How would you describe Lee?",
+        "answerA": "irritated with how long the problem took",
+        "answerB": "very determined",
+        "answerC": "relieved to finally have the answer"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "10": {
+      "input_prompt": {
+        "context": "Sasha and others noticed Bob didnt have money for lunch. Sasha gave Bob some french fries.",
+        "question": "What will Others want to do next?",
+        "answerA": "offer to take Bob's money",
+        "answerB": "ask Bob for food",
+        "answerC": "share their fries"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "11": {
+      "input_prompt": {
+        "context": "Carson took pictures of all of the children at the birthday party.",
+        "question": "How would the parents feel as a result?",
+        "answerA": "made about all of the pictures",
+        "answerB": "angry about what Carson did",
+        "answerC": "happy to have the souvenir"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "12": {
+      "input_prompt": {
+        "context": "Casey called Aubrey's parents and wanted to find out information on Aubrey's birthday.",
+        "question": "What will Casey want to do next?",
+        "answerA": "want revenge on Aubrey's parents",
+        "answerB": "treat Aubrey",
+        "answerC": "throw Aubrey a party"
+      },
+      "correct_answer": "C",
+      "percent_correct": 0.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "13": {
+      "input_prompt": {
+        "context": "Riley got free of the guard and ultimately was able to make her escape.",
+        "question": "What does Riley need to do before this?",
+        "answerA": "have known about the guard's practices",
+        "answerB": "needed to be lackadaisical about it",
+        "answerC": "be free"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "14": {
+      "input_prompt": {
+        "context": "Robin went with Jan's friends to school and was unaware Jan was planning a surprise party for later.",
+        "question": "What will Jan want to do next?",
+        "answerA": "throw a party next",
+        "answerB": "go to sleep next",
+        "answerC": "go to class"
+      },
+      "correct_answer": "C",
+      "percent_correct": 0.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "15": {
+      "input_prompt": {
+        "context": "Cameron took their work seriously and did not allow joking.",
+        "question": "What does Cameron need to do before this?",
+        "answerA": "throw a party",
+        "answerB": "let everyone know the rules",
+        "answerC": "be serious"
+      },
+      "correct_answer": "C",
+      "percent_correct": 0.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "16": {
+      "input_prompt": {
+        "context": "Riley regarded Jesse with suspicious eyes when Jesse held out the flowers.",
+        "question": "What will happen to Riley?",
+        "answerA": "be proposed to by Jesse",
+        "answerB": "fail to impress Riley",
+        "answerC": "be distrusted by Riley"
+      },
+      "correct_answer": "A",
+      "percent_correct": 0.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "17": {
+      "input_prompt": {
+        "context": "Jordan was being loud and kept Carson up all night.",
+        "question": "How would you describe Jordan?",
+        "answerA": "a fun person",
+        "answerB": "inconsiderate",
+        "answerC": "playing a game"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "18": {
+      "input_prompt": {
+        "context": "Robin pulled Carson over for speeding and then didnt write him a ticket.",
+        "question": "Why did Robin do this?",
+        "answerA": "thought he was cute",
+        "answerB": "issue a warning",
+        "answerC": "hated him"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "19": {
+      "input_prompt": {
+        "context": "Sydney rubbed Addison's head.  She loved the feel of his bald pate.",
+        "question": "What will Sydney want to do next?",
+        "answerA": "ask out the next long-haired man",
+        "answerB": "offer Addison hair growth shampoo",
+        "answerC": "consider shaving her own head for fun"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "20": {
+      "input_prompt": {
+        "context": "Taylor decided to host a game night at their house for everyone.",
+        "question": "What will Others want to do next?",
+        "answerA": "buy some board games",
+        "answerB": "clean up their house",
+        "answerC": "engage in conversation"
+      },
+      "correct_answer": "A",
+      "percent_correct": 0.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "21": {
+      "input_prompt": {
+        "context": "Sasha helped Jordan.",
+        "question": "What will Sasha want to do next?",
+        "answerA": "help herself",
+        "answerB": "Beat others down",
+        "answerC": "friends with Jordan"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "22": {
+      "input_prompt": {
+        "context": "Cameron knew what he wanted to do this weekend since he loved being outside so much.",
+        "question": "How would you describe Cameron?",
+        "answerA": "a man who likes to nap",
+        "answerB": "happy",
+        "answerC": "a man who likes to camp"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "23": {
+      "input_prompt": {
+        "context": "Sydney went trick or treating and the others joined him happily.",
+        "question": "What will Others want to do next?",
+        "answerA": "go home",
+        "answerB": "did this to get candy",
+        "answerC": "get candy"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "24": {
+      "input_prompt": {
+        "context": "Kai decided to stay at the beach house an extra week.",
+        "question": "Why did Kai do this?",
+        "answerA": "was having her apartment fumigated",
+        "answerB": "swim every morning before breakfast",
+        "answerC": "loves the beach and didn't want to leave"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "25": {
+      "input_prompt": {
+        "context": "Cameron gave Casey a pep talk and now has a sense of belonging in the group.",
+        "question": "What will Casey want to do next?",
+        "answerA": "Leave the group",
+        "answerB": "Make a plan to attack the project",
+        "answerC": "be nice"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "26": {
+      "input_prompt": {
+        "context": "Addison was watching women at a fashion show. They regarded every girl.",
+        "question": "How would Addison feel afterwards?",
+        "answerA": "sad",
+        "answerB": "bored",
+        "answerC": "happy"
+      },
+      "correct_answer": "B",
+      "percent_correct": 0.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "27": {
+      "input_prompt": {
+        "context": "After reading Casey's graduate thesis, Remy gave Casey a different interpretation in an effort to help improve the thesis.",
+        "question": "What does Remy need to do before this?",
+        "answerA": "wanted to give Casey something to think about",
+        "answerB": "familiarize themselves with the research Casey has done",
+        "answerC": "skim over most of Casey's notes"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "28": {
+      "input_prompt": {
+        "context": "Remy gave Skylar, the concierge, her account so that she could check into the hotel.",
+        "question": "What will Remy want to do next?",
+        "answerA": "lose her credit card",
+        "answerB": "arrive at a hotel",
+        "answerC": "get the key from Skylar"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "29": {
+      "input_prompt": {
+        "context": "Ash performed better after drinking coffee, but had to give it up due to acid reflux.",
+        "question": "What does Ash need to do before this?",
+        "answerA": "drink water",
+        "answerB": "drink lemonade",
+        "answerC": "start having stomach pains"
+      },
+      "correct_answer": "C",
+      "percent_correct": 0.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "30": {
+      "input_prompt": {
+        "context": "Kai would fall down because they don't know how to properly ice skate.",
+        "question": "How would you describe Kai?",
+        "answerA": "talented",
+        "answerB": "embarrassed",
+        "answerC": "clumsy"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "31": {
+      "input_prompt": {
+        "context": "Carson was a week away from finals, but went over his friends every day to play video game.",
+        "question": "How would you describe Carson?",
+        "answerA": "not motivated",
+        "answerB": "disapproving",
+        "answerC": "focused on grades"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "32": {
+      "input_prompt": {
+        "context": "ash could tell this person did not want to listen to him anymore, so he got to the point.",
+        "question": "Why did Ash do this?",
+        "answerA": "needed to be ready to leave",
+        "answerB": "needed to prepare a good speech",
+        "answerC": "not be a drag on other people"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "33": {
+      "input_prompt": {
+        "context": "Sasha improved Jordan's status when they were seen together.",
+        "question": "How would Sasha feel afterwards?",
+        "answerA": "frustrated",
+        "answerB": "better",
+        "answerC": "accomplished"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "34": {
+      "input_prompt": {
+        "context": "Taylor\u00b4s friend had to get to the airport but had missed the bus, however Lee was going that direction, so Lee gave Taylor's friend a ride.",
+        "question": "What will Taylor want to do next?",
+        "answerA": "book a flight",
+        "answerB": "call for a taxi",
+        "answerC": "say goodbye to their friend"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "35": {
+      "input_prompt": {
+        "context": "Kai was standing on the edge and could fall over.",
+        "question": "How would you describe Kai?",
+        "answerA": "Better that it didn't have",
+        "answerB": "taking a risk",
+        "answerC": "making a bad decision"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "36": {
+      "input_prompt": {
+        "context": "Tracy went camping during the weekend because he wanted to get away.",
+        "question": "How would you describe Tracy?",
+        "answerA": "bored",
+        "answerB": "brave",
+        "answerC": "bad"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "37": {
+      "input_prompt": {
+        "context": "Skylar worked night shift and had just finished and driven home so when they got there they lay down pulled the shade over their eyes.",
+        "question": "What will Skylar want to do next?",
+        "answerA": "sleep",
+        "answerB": "wake up",
+        "answerC": "get active"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "38": {
+      "input_prompt": {
+        "context": "Taylor gave his friend a high five after his friend made a basket in their game.",
+        "question": "What does Taylor need to do before this?",
+        "answerA": "go home with the ball",
+        "answerB": "run into position",
+        "answerC": "throw the ball to his friend"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "39": {
+      "input_prompt": {
+        "context": "Taylor's father was going to marry his long time girlfriend, Anna.",
+        "question": "What does Taylor need to do before this?",
+        "answerA": "buy a prom dress",
+        "answerB": "buy a wedding gift",
+        "answerC": "plan"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "40": {
+      "input_prompt": {
+        "context": "Jan was practicing her singing for the whole day.",
+        "question": "Why did Jan do this?",
+        "answerA": "was going to read a book",
+        "answerB": "was going to karaoke night",
+        "answerC": "was going to sleep"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "41": {
+      "input_prompt": {
+        "context": "After being kicked out of the house by his parents, Jordan needed a place to live.",
+        "question": "How would you describe Jordan?",
+        "answerA": "quite lazy",
+        "answerB": "sad",
+        "answerC": "extremely hardworking"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "42": {
+      "input_prompt": {
+        "context": "Remy was prepared for the test and they took it and got a very good grade on it.",
+        "question": "What will Remy want to do next?",
+        "answerA": "take another test",
+        "answerB": "go to a movie",
+        "answerC": "shout out loud"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "43": {
+      "input_prompt": {
+        "context": "Cameron looked at Riley expectantly when Riley said they had a gift for them.",
+        "question": "How would you describe Cameron?",
+        "answerA": "impatient to open the gift",
+        "answerB": "excited to see what they got",
+        "answerC": "curious about their gift"
+      },
+      "correct_answer": "A",
+      "percent_correct": 0.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "44": {
+      "input_prompt": {
+        "context": "Bailey saw that Ash was feeling down and reached over to hold Ash's hand.",
+        "question": "How would you describe Bailey?",
+        "answerA": "compassionate",
+        "answerB": "good about helping a friend",
+        "answerC": "sympathetic to Ash"
+      },
+      "correct_answer": "A",
+      "percent_correct": 0.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "45": {
+      "input_prompt": {
+        "context": "Tracy's hobby is woodworking. Tracy built things like baby cribs for the poor in their community.",
+        "question": "How would you describe Tracy?",
+        "answerA": "Blessed",
+        "answerB": "Very grateful",
+        "answerC": "generous"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "46": {
+      "input_prompt": {
+        "context": "On the occasion of their most recent birthday Taylor gave a book to a friend.",
+        "question": "How would Others feel as a result?",
+        "answerA": "responsive",
+        "answerB": "bored",
+        "answerC": "jealous"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "47": {
+      "input_prompt": {
+        "context": "Ash made a mistake but then they redeemed themselves.",
+        "question": "Why did Ash do this?",
+        "answerA": "So they mistake isn't talked about by people",
+        "answerB": "find a way to redeem themselves",
+        "answerC": "fix their mistake"
+      },
+      "correct_answer": "C",
+      "percent_correct": 0.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "48": {
+      "input_prompt": {
+        "context": "Remy joined a band and was so good that he was offered a solo contract and took it.",
+        "question": "What will happen to Others?",
+        "answerA": "be resentful of Remy",
+        "answerB": "be thrilled to be rid of Remy",
+        "answerC": "look forward to possible fame"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "49": {
+      "input_prompt": {
+        "context": "Robin's house was scheduled to be demolished. Jesse set Robin's house on fire.",
+        "question": "How would you describe Jesse?",
+        "answerA": "relaxed",
+        "answerB": "conservative",
+        "answerC": "risky"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "50": {
+      "input_prompt": {
+        "context": "Jordan talked behind Ash's back with his coworkers.",
+        "question": "Why did Jordan do this?",
+        "answerA": "wanted to be nice to Ash",
+        "answerB": "wanted to impress them",
+        "answerC": "turn them against Ash"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "51": {
+      "input_prompt": {
+        "context": "Alex is a firefighter. He helped Casey to escape the fire.",
+        "question": "What will happen to Casey?",
+        "answerA": "be angry",
+        "answerB": "escape the fire",
+        "answerC": "cry"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "52": {
+      "input_prompt": {
+        "context": "Kai grabbed Carson's tools for him after he left it in the park.",
+        "question": "What will Kai want to do next?",
+        "answerA": "Put them in the garage",
+        "answerB": "take them to Carson",
+        "answerC": "throw them away"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "53": {
+      "input_prompt": {
+        "context": "Aubrey was taking a test and thought hard about the answers.",
+        "question": "What does Aubrey need to do before this?",
+        "answerA": "study for the test",
+        "answerB": "do her best",
+        "answerC": "read the test questions"
+      },
+      "correct_answer": "C",
+      "percent_correct": 0.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "54": {
+      "input_prompt": {
+        "context": "An old woman dropped her groceries outside of the store, Cameron went out of her way to help the woman collect her items.",
+        "question": "Why did Cameron do this?",
+        "answerA": "Go home",
+        "answerB": "Walk to his car",
+        "answerC": "a good person"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "55": {
+      "input_prompt": {
+        "context": "Austin got extra help with the homework from his tutor since he was falling behind in class.",
+        "question": "What will the tutor want to do next?",
+        "answerA": "do their own homework on time",
+        "answerB": "review homework with Austin",
+        "answerC": "realize he was doing poorly in class"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "56": {
+      "input_prompt": {
+        "context": "Bailey passed Jesse an examination booklet after she decided not to study that subject anymore.",
+        "question": "What will Bailey want to do next?",
+        "answerA": "give the booklet back to Bailey",
+        "answerB": "leave the class",
+        "answerC": "throw away the examination booklet"
+      },
+      "correct_answer": "B",
+      "percent_correct": 0.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "57": {
+      "input_prompt": {
+        "context": "Riley began to hurt inside and decided to call the doctor.",
+        "question": "What will Riley want to do next?",
+        "answerA": "get medical advice",
+        "answerB": "eat something",
+        "answerC": "go swimming"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "58": {
+      "input_prompt": {
+        "context": "Quinn threw the frisbee so the dog could play with it.",
+        "question": "What will Others want to do next?",
+        "answerA": "ignore the frisbee",
+        "answerB": "Call the dog's name",
+        "answerC": "watch it fly"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "59": {
+      "input_prompt": {
+        "context": "Casey ignored the warning on a carton of expired mik.",
+        "question": "How would Casey feel afterwards?",
+        "answerA": "energetic",
+        "answerB": "nauseous",
+        "answerC": "not pragmatic"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "60": {
+      "input_prompt": {
+        "context": "Alex was getting very old and infirm so Alex gave Sydney command.",
+        "question": "What will Alex want to do next?",
+        "answerA": "make Sydney take charge",
+        "answerB": "get a new job",
+        "answerC": "relax"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "61": {
+      "input_prompt": {
+        "context": "Kendall caught Jordan's eyes when Kendall wore a new dress for the party.",
+        "question": "How would Kendall feel afterwards?",
+        "answerA": "pretty",
+        "answerB": "happy she decided to wear the new dress",
+        "answerC": "ugly"
+      },
+      "correct_answer": "A",
+      "percent_correct": 0.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "62": {
+      "input_prompt": {
+        "context": "Riley and the others were the best of friends and always supported each other.",
+        "question": "What will happen to Others?",
+        "answerA": "The others will be dejected",
+        "answerB": "The others will offer support",
+        "answerC": "The others will be isolated"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "63": {
+      "input_prompt": {
+        "context": "Jordan gave Casey the runaround so Jordan bought his movie tickets anyway and would see it alone if Casey did not show up.",
+        "question": "What will Jordan want to do next?",
+        "answerA": "Go home if Casey was a no show",
+        "answerB": "Go into the theater",
+        "answerC": "wanted to see the movie anyways and didn't matter if Casey went as well"
+      },
+      "correct_answer": "B",
+      "percent_correct": 0.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "64": {
+      "input_prompt": {
+        "context": "Carson played a role in the war despite not agreeing with the reason.",
+        "question": "What will Others want to do next?",
+        "answerA": "have a war with Carson",
+        "answerB": "be as determined as Carson",
+        "answerC": "fight against Carson"
+      },
+      "correct_answer": "B",
+      "percent_correct": 0.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "65": {
+      "input_prompt": {
+        "context": "Remy took the test again to see if they could do even better.",
+        "question": "How would you describe Remy?",
+        "answerA": "relieved",
+        "answerB": "like a winner",
+        "answerC": "do well"
+      },
+      "correct_answer": "B",
+      "percent_correct": 0.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "66": {
+      "input_prompt": {
+        "context": "Taylor gave their friend a hug in front of all the others.",
+        "question": "What will Others want to do next?",
+        "answerA": "they need their friend's consent",
+        "answerB": "not touch anyone",
+        "answerC": "watch Tracy"
+      },
+      "correct_answer": "C",
+      "percent_correct": 0.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "67": {
+      "input_prompt": {
+        "context": "Kai was not happy with how things were going, and Cameron took Kai's complaint seriously.",
+        "question": "How would Cameron feel afterwards?",
+        "answerA": "Trustworthy",
+        "answerB": "indifferent",
+        "answerC": "like a good friend"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "68": {
+      "input_prompt": {
+        "context": "After many months of hard work, Addison eventually got a car.",
+        "question": "What does Addison need to do before this?",
+        "answerA": "heave bad credit",
+        "answerB": "get a job",
+        "answerC": "change the oil"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "69": {
+      "input_prompt": {
+        "context": "Taylor helped Ash move and carried all the boxes.",
+        "question": "How would Taylor feel afterwards?",
+        "answerA": "tired",
+        "answerB": "alive",
+        "answerC": "appreciative"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "70": {
+      "input_prompt": {
+        "context": "Bailey passed Jesse an examination booklet during the final exam in biology class.",
+        "question": "What will Bailey want to do next?",
+        "answerA": "tear the examination booklet up",
+        "answerB": "tell the teacher what Bailey did",
+        "answerC": "thank Bailey for letting her see the examination booklet"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "71": {
+      "input_prompt": {
+        "context": "Jordan read a lot of books about his favorite hobby.",
+        "question": "How would you describe Jordan?",
+        "answerA": "As someone that likes to learn",
+        "answerB": "smart",
+        "answerC": "As someone that asked about their hobby"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "72": {
+      "input_prompt": {
+        "context": "Kendall went home with Jan's friends after the movie was over.",
+        "question": "How would you describe Kendall?",
+        "answerA": "like he has a good social group",
+        "answerB": "tired",
+        "answerC": "thankful for the socialization"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "73": {
+      "input_prompt": {
+        "context": "Jordan affected the children's happiness by taking away all their games.",
+        "question": "What will Others want to do next?",
+        "answerA": "keep their games away",
+        "answerB": "teach the children a lesson",
+        "answerC": "be more behaved"
+      },
+      "correct_answer": "B",
+      "percent_correct": 0.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "74": {
+      "input_prompt": {
+        "context": "Ash was cut short by the speaker at the conference.",
+        "question": "How would you describe Ash?",
+        "answerA": "frustrated",
+        "answerB": "Inassertive",
+        "answerC": "irritated"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "75": {
+      "input_prompt": {
+        "context": "Riley had a lot of friends.",
+        "question": "What will happen to Riley?",
+        "answerA": "they will play with Riley",
+        "answerB": "they will like Riley",
+        "answerC": "interacted outside the home a lot"
+      },
+      "correct_answer": "A",
+      "percent_correct": 0.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "76": {
+      "input_prompt": {
+        "context": "Remy supplied the needs of all the children during the power outage.",
+        "question": "Why did Remy do this?",
+        "answerA": "have money",
+        "answerB": "get power",
+        "answerC": "Make sure the kids were safe"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "77": {
+      "input_prompt": {
+        "context": "Taylor heard someone use an unfamiliar word, so they looked up the definition of it online.",
+        "question": "What does Taylor need to do before this?",
+        "answerA": "Type the word into a search engine",
+        "answerB": "remember the word",
+        "answerC": "Say the word aloud to remember it"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "78": {
+      "input_prompt": {
+        "context": "Jan went off to college and found new friends.",
+        "question": "What will the friends want to do next?",
+        "answerA": "did this for a fresh start",
+        "answerB": "hang out at Jan's place",
+        "answerC": "did this to meet new people"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "79": {
+      "input_prompt": {
+        "context": "Riley turned the stove off every time she finish cooking.",
+        "question": "How would you describe Riley?",
+        "answerA": "forgetful",
+        "answerB": "lazy",
+        "answerC": "forehanded"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "80": {
+      "input_prompt": {
+        "context": "Aubrey sounded good talking after months of taking speech therapy at her school.",
+        "question": "How would Others feel as a result of this?",
+        "answerA": "improved from practice",
+        "answerB": "proud of Aubrey",
+        "answerC": "disappointed in Aubrey"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "81": {
+      "input_prompt": {
+        "context": "Sasha wetted the bed because they had a bad dream.",
+        "question": "How would Sasha feel afterwards?",
+        "answerA": "has insecurities",
+        "answerB": "has a weak bladder",
+        "answerC": "the need to clean up right away"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "82": {
+      "input_prompt": {
+        "context": "Ash had sandwiches to eat every day and he started to feel sick and bloated, and also feel tired.",
+        "question": "How would Ash feel afterwards?",
+        "answerA": "energized",
+        "answerB": "healthy and lean",
+        "answerC": "sick and bloated"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "83": {
+      "input_prompt": {
+        "context": "Lee got Jordan to start walking to school instead of riding the bus.",
+        "question": "What will Lee want to do next?",
+        "answerA": "ride the school bus",
+        "answerB": "drive himself to school",
+        "answerC": "get other friends to walk, too"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "84": {
+      "input_prompt": {
+        "context": "Kai talked about politics with their friends to try and stay informed.",
+        "question": "Why did Kai do this?",
+        "answerA": "learn",
+        "answerB": "needed to hang out with his friends",
+        "answerC": "needed to make sure his friends know politics"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "85": {
+      "input_prompt": {
+        "context": "Remy saved the town from destruction after the tornado had hit.",
+        "question": "How would Others feel as a result?",
+        "answerA": "very grateful",
+        "answerB": "glad that they saved the town",
+        "answerC": "very bitter"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "86": {
+      "input_prompt": {
+        "context": "Ash was nervous, and cringed when they missed a step, but knew that the best thing to do is push forward. They earned a standing ovation.",
+        "question": "Why did Ash do this?",
+        "answerA": "Do it perfectly or not at all",
+        "answerB": "Prove they could do it",
+        "answerC": "Quit while they were ahead"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "87": {
+      "input_prompt": {
+        "context": "Sasha gave their sister some of their Adderal pills to help her concentrate better.",
+        "question": "How would Others feel as a result?",
+        "answerA": "disappointed in Sasha",
+        "answerB": "helpful",
+        "answerC": "a bad friend"
+      },
+      "correct_answer": "A",
+      "percent_correct": 0.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "88": {
+      "input_prompt": {
+        "context": "Robin had a very sweet tooth and loved to eat sweet things.",
+        "question": "What does Robin need to do before this?",
+        "answerA": "bought nothing",
+        "answerB": "went to the shop",
+        "answerC": "went to bed"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "89": {
+      "input_prompt": {
+        "context": "Remy played darts for an hour at the tavern on his way home from work that night.",
+        "question": "What will Remy want to do next?",
+        "answerA": "watch the sunrise",
+        "answerB": "wanted to have fun",
+        "answerC": "put darts away"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "90": {
+      "input_prompt": {
+        "context": "Taylor attended their father's concert and was very impressed that their father performed so well.",
+        "question": "What will Taylor want to do next?",
+        "answerA": "tell their father 'well done'",
+        "answerB": "enjoy a show",
+        "answerC": "leave the concert before it starts"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "91": {
+      "input_prompt": {
+        "context": "Alex was no longer raising Sasha but she did give birth to Sasha.",
+        "question": "What will Alex want to do next?",
+        "answerA": "build a relationship with Sasha",
+        "answerB": "Ask to visit Sasha",
+        "answerC": "Kidnap Sasha from home"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "92": {
+      "input_prompt": {
+        "context": "Kai sold his TV to the bidder on eBay after a month had passed.",
+        "question": "What will Kai want to do next?",
+        "answerA": "keep the TV",
+        "answerB": "did this to get rid of it",
+        "answerC": "bank the money"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "93": {
+      "input_prompt": {
+        "context": "Tracy's kids wanted ice cream so Aubrey fed the kids ice cream.",
+        "question": "What does Aubrey need to do before this?",
+        "answerA": "tell her kids to say thank you",
+        "answerB": "get ice cream",
+        "answerC": "thanks Aubrey"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "94": {
+      "input_prompt": {
+        "context": "Robin changed Aubrey's clothes before she went swimming because they wanted to make sure that Aubrey doesn't wet her old clothes.",
+        "question": "How would Robin feel afterwards?",
+        "answerA": "terrible",
+        "answerB": "perfect",
+        "answerC": "bad"
+      },
+      "correct_answer": "B",
+      "percent_correct": 0.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "95": {
+      "input_prompt": {
+        "context": "Sydney threw a big party because her friends and family were coming to town for vacation.",
+        "question": "How would Others feel as a result?",
+        "answerA": "uched by Sydney's efforts",
+        "answerB": "Angry with Sydney",
+        "answerC": "someone who loves their family"
+      },
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "96": {
+      "input_prompt": {
+        "context": "Jordan's son was growing out of their shoes. Jordan took their son to the shoe store.",
+        "question": "How would Jordan's son feel as a result?",
+        "answerA": "ready to go home",
+        "answerB": "upset and frustrated",
+        "answerC": "ready to find shoes"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "97": {
+      "input_prompt": {
+        "context": "Casey never received attention from boys so she went to go get a new haircut.",
+        "question": "What will Casey want to do next?",
+        "answerA": "stay in her house",
+        "answerB": "ignore everyone",
+        "answerC": "get a date"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "98": {
+      "input_prompt": {
+        "context": "Riley screamed in pain after falling of their bike and breaking their arm.",
+        "question": "What will Riley want to do next?",
+        "answerA": "get on the bike",
+        "answerB": "go to a midwife",
+        "answerC": "go to the hospital"
+      },
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "99": {
+      "input_prompt": {
+        "context": "riley was happy to socialize with others so she talked to her friends.",
+        "question": "How would Others feel as a result?",
+        "answerA": "as calm",
+        "answerB": "a sociable person",
+        "answerC": "as angry"
+      },
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    }
+  },
+  "avg_percent_correct": 76.0
+}

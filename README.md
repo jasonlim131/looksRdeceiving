@@ -35,19 +35,21 @@ To set up the project environment:
 1. Ensure you have Python 3.10 installed on your system.
 
 2. Clone this repository:
-
+```
 git clone https://github.com/jasonlim131/looksRdeceiving.git
 cd looksRdeceiving
+```
+
 
 3. Create a virtual environment, e.g. "sycophant_venv":
 4. Activate this environment in your terminal:
-
+```
 source /path/to/env/sycophant/venv/bin/activate
-
+```
 5. Install dependencies
-
+```
 pip3.10 install -r requirements.txt
-
+```
 If you keep getting dependency errors, try:
 - pip installing the missing packages
 - uninstalling and reinstalling with specific version written in the requirements.txt file ('{package_name}==VERSION')
@@ -58,14 +60,15 @@ If you keep getting dependency errors, try:
 To generate the experimental prompts:
 
 1. For vMMLU:
-
+```
 python python-src/generate_vmmlu.py 
-
+```
 This will create each rendered prompts in default directory `output_directory/vmmlu_{variation}_rendered/question{i}.png`
 
 2. For vSocialIQa:
+```
 python python-src/generate_vsocialiqa.py
-
+```
 This will create rendered prompts in:
 - `output_directory/vmmlu_centered_{variation}_rendered`
 - `output_directory/vmmlu_{variation}_rendered`
@@ -93,12 +96,6 @@ These models were chosen for their balance of performance (70-80% on full MMLU) 
 
 1. Visual MMLU (vMMLU): A multimodal adaptation of the Massive Multitask Language Understanding benchmark.
 2. Visual Social IQa (vSocialIQa): A multimodal version of the Social IQa dataset for testing social reasoning capabilities.
-
-## Results
-
-Detailed results can be found in `full_results.rtf`. Key findings include:
-- [Summary of main results]
-- [Any particularly interesting or surprising findings]
 
 ## Contributing
 

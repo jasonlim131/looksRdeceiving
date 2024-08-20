@@ -72,11 +72,11 @@ This will create rendered prompts in:
 
 ## Evaluating Models
 
-[Instructions for running the evaluations on different models]
+python3.10 evaluate_{model}_{condition}.py
 
 ## Analyzing Results
 
-[Instructions for running the analysis scripts and interpreting the output]
+python3.10 calculate_bias.py
 
 ## Models Tested
 
@@ -93,12 +93,6 @@ These models were chosen for their balance of performance (70-80% on full MMLU) 
 
 1. Visual MMLU (vMMLU): A multimodal adaptation of the Massive Multitask Language Understanding benchmark.
 2. Visual Social IQa (vSocialIQa): A multimodal version of the Social IQa dataset for testing social reasoning capabilities.
-
-## Results
-
-Detailed results can be found in `full_results.rtf`. Key findings include:
-- [Summary of main results]
-- [Any particularly interesting or surprising findings]
 
 ## Contributing
 

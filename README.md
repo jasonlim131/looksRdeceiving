@@ -73,13 +73,15 @@ This will create rendered prompts in:
 - `output_directory/vmmlu_centered_{variation}_rendered`
 - `output_directory/vmmlu_{variation}_rendered`
 
+
 ## Evaluating Models
-
-[Instructions for running the evaluations on different models]
-
+```
+python3.10 evaluate_{model}_{task_format}.py
+```
 ## Analyzing Results
-
-[Instructions for running the analysis scripts and interpreting the output]
+```
+python3.10 calculate_bias_{task_format}.py
+```
 
 ## Models Tested
 

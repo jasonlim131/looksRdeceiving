@@ -30,7 +30,28 @@ This project investigates the phenomenon of "visual sycophancy" in multimodal la
 
 ## Setup
 
-[Instructions for setting up the project environment, including any dependencies]
+To set up the project environment:
+
+1. Ensure you have Python 3.10 installed on your system.
+
+2. Clone this repository:
+
+git clone https://github.com/jasonlim131/looksRdeceiving.git
+cd looksRdeceiving
+
+3. Create a virtual environment, e.g. "sycophant_venv":
+4. Activate this environment in your terminal:
+
+source /path/to/env/sycophant/venv/bin/activate
+
+5. Install dependencies
+
+pip3.10 install -r requirements.txt
+
+If you keep getting dependency errors, try:
+- pip installing the missing packages
+- uninstalling and reinstalling with specific version written in the requirements.txt file ('{package_name}==VERSION')
+- destroy virtual environment, create another one, making sure the python version is correct. 
 
 ## Generating Experiments
 

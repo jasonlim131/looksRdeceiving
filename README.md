@@ -1,6 +1,6 @@
-# Visual Sycophancy in Multimodal Models
+# Measuring Visual Sycophancy in Multimodal Models
 
-This repository contains the code and resources for replicating the experiments and analysis from our paper "[Measuring Visual Sycophancy in Multimodal Models](arxiv_paper_link)".
+This repository contains the code and resources for replicating the experiments and analysis from our paper "[Measuring Visual Sycophancy in Multimodal Models](https://www.arxiv.org/abs/2408.09111).
 
 ## Table of Contents
 1. [Introduction](#introduction)

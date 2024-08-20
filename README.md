@@ -24,6 +24,8 @@ This project investigates the phenomenon of "visual sycophancy" in multimodal la
 - `python-src/`: Contains the Python source code for generating experiments and analyzing results
 - `results/`: Stores the output of experiments and analysis
 - `question_template.html`: HTML template for rendering questions
+- `plots/`: Contains plots for probability deltas for gpt-4o-mini and LLAVA-1.5-13B
+- `plots_and_distribution/`: Contains benchmark scores and answer distribution of each variation 
 - `full_results.rtf`: Comprehensive results in Rich Text Format
 
 ## Setup

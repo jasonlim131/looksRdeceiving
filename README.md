@@ -1,21 +1,37 @@
-## This is the github repo for replicating the code from {arxiv_paper_link}
+# Visual Sycophancy in Multimodal Models
 
+This repository contains the code and resources for replicating the experiments and analysis from our paper "[Measuring Visual Sycophancy in Multimodal Models](arxiv_paper_link)".
 
-We recorded and measured the visual bias / sycophancy in proprietary and open-source models
-- gpt4o-mini
-- Claude sonnet3 and haiku3
-- Gemini-1.5-flash
-- LLAVA-1.5-Flash (just vmmlu)
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Repository Structure](#repository-structure)
+3. [Setup](#setup)
+4. [Generating Experiments](#generating-experiments)
+5. [Evaluating Models](#evaluating-models)
+6. [Analyzing Results](#analyzing-results)
+7. [Models Tested](#models-tested)
+8. [Benchmarks](#benchmarks)
+9. [Results](#results)
+10. [Contributing](#contributing)
+11. [License](#license)
 
-Why we chose these models
-They are light, cheap, and high performing version of the popular proprietary sota models (appr. 70-80% on the full mmlu evaluation).
+## Introduction
 
-## For vmmlu
+This project investigates the phenomenon of "visual sycophancy" in multimodal language models - the tendency of these models to disproportionately favor visually presented information, even when it contradicts their prior knowledge. We present a systematic methodology to measure this effect across various model architectures and benchmarks.
 
-use output_directory/vmmlu_{variation}_rendered
+## Repository Structure
 
-## For social_i_qa
+- `python-src/`: Contains the Python source code for generating experiments and analyzing results
+- `results/`: Stores the output of experiments and analysis
+- `question_template.html`: HTML template for rendering questions
+- `full_results.rtf`: Comprehensive results in Rich Text Format
 
-use output_directory/vmmlu_centered_{variation}_rendered
-or
-output_directory/vmmlu_{variation}_rendered_
+## Setup
+
+[Instructions for setting up the project environment, including any dependencies]
+
+## Generating Experiments
+
+To generate the experimental prompts:
+
+1. For vMMLU:

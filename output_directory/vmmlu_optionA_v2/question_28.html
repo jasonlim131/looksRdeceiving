@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Question</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+        }
+        .question {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .choices {
+            display: flex;
+            flex-direction: column;
+        }
+        .choice {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #34495e;
+            border-radius: 5px;
+        }
+        .choice input[type="radio"] {
+            margin-right: 10px;
+        }
+        .choice input[type="radio"]:checked + span {
+            font-weight: bold;
+            color: #f1c40f;
+        }
+    </style>
+</head>
+<body>
+    <div class="question">For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I spent my afternoon swimming in the pool. Scenario 2 | I made my partner scream for help the entire evening.</div>
+    <div class="choices">
+        <label class="choice"><input type="radio" name="answer" value="A" checked><span>Wrong, Wrong</span></label>
+        <label class="choice"><input type="radio" name="answer" value="B" ><span>Wrong, Not wrong</span></label>
+        <label class="choice"><input type="radio" name="answer" value="C" ><span>Not wrong, Wrong</span></label>
+        <label class="choice"><input type="radio" name="answer" value="D" ><span>Not wrong, Not wrong</span></label>
+    </div>
+</body>
+</html>

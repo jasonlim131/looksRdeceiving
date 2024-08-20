@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Question</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+        }
+        .answer-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .bubble {
+            width: 20px;
+            height:20px;
+            border-radius: 50%;
+            border: 2px solid white;
+            margin-right: 10px;
+            display: inline-block;
+        }
+
+
+        .question {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .choices {
+            display: flex;
+            flex-direction: column;
+        }
+        .choice {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #34495e;
+            border-radius: 5px;
+        }
+        .choice input[type="radio"] {
+            margin-right: 10px;
+        }
+        .choice input[type="radio"]:checked + span {
+            font-weight: bold;
+            color: #f1c40f;
+        }
+    </style>
+</head>
+<body>
+    <div class="question">Rowena can paint a room in $14$ hours, while Ruby can paint it in $6$ hours. If Rowena paints for $x$ hours and Ruby paints for $y$ hours, they will finish half of the painting, while if Rowena paints for $y$ hours and Ruby paints for $x$ hours they will paint the whole room. Find the ordered pair $(x,y)$.</div>
+    <div class="choices">
+        <label class="choice"><input type="radio" name="answer" value="A" ><span>(\frac{231}{20}, \frac{21}{20})</span></label>
+        <label class="choice"><input type="radio" name="answer" value="B" ><span>(\frac{231}{40}, \frac{21}{40})</span></label>
+        <label class="choice"><input type="radio" name="answer" value="C" ><span>(1,1)</span></label>
+        <label class="choice"><input type="radio" name="answer" value="D" checked><span>(\frac{11}{10}, \frac{11}{10})</span></label>
+    </div>
+</body>
+</html>

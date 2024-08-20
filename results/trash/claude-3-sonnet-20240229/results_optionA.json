@@ -1,0 +1,345 @@
+{
+  "total_percent_correct": 1300.0,
+  "prompts": {
+    "0": {
+      "input_prompt": "The following are multiple choice questions (with answers) about high school statistics.\n\nWhich of the following is a correct statement about correlation?\nA. If the slope of the regression line is exactly 1, then the correlation is exactly 1.\nB. If the correlation is 0, then the slope of the regression line is undefined.\nC. Switching which variable is called x and which is called y changes the sign of the correlation.\nD. The correlation r is equal to the slope of the regression line when z-scores for the y-variable are plotted against z-scores for the x-variable.\nAnswer: D\n\nSuppose X and Y are random variables with E(X) = 37, var(X) = 5, E(Y) = 62, and var(Y) = 12. What are the expected value and variance of the random variable X + Y?\nA. E(X + Y) = 99, var(X + Y) = 8.5\nB. E(X + Y) = 99, var(X + Y) = 13\nC. E(X + Y) = 99, var(X + Y) = 17\nD. There is insufficient information to answer this question.\nAnswer: D\n\nAfter a frost warning was issued, the owner of a large orange grove asked his workers to spray all his trees with water. The water was supposed to freeze and form a protective covering of ice around the orange blossom. Nevertheless, the owner suspected that some trees suffered considerable damage due to the frost. To estimate the proportion of trees that suffered more than 50 percent damage due to the frost, he took a random sample of 100 trees from his grove. What is the response variable in this experiment?\nA. The proportion of trees that suffered more than 50 percent damage due to frost.\nB. The number of trees affected by the frost.\nC. The number of trees sampled from the grove.\nD. For each sampled tree, whether it suffered more than 50 percent damage or at most 50 percent damage.\nAnswer: D\n\nA new smartwatch is manufactured in one part of a factory, then secured for shipping in another, independent part of the factory. The weight of the smartwatch has a mean of 62 grams and a standard deviation of 1.0 grams. The weight of the packaging (box, user's guide, bubble wrap, etc.) has a mean of 456 grams and a standard deviation of 6 grams. Together, the distribution of the weight of the smartwatch and its packaging would have the following mean and standard deviation:\nA. Mean 518 grams; standard deviation 7.0 grams\nB. Mean 518 grams; standard deviation 3.5 grams\nC. Mean 518 grams; standard deviation 6.1 grams\nD. Mean 394 grams; standard deviation 6.1 grams\nAnswer: C\n\nWhich of the following sets has the smallest standard deviation? Which has the largest?\nI: {1,2,3}\nII: {-10,10}\nIII: {100}\nA. I, II\nB. II, III\nC. III, I\nD. III, II\nAnswer: D\n\nThe number of days it takes to build a new house has a variance of 386. A sample of 40 new homes shows an average building time of 83 days. With what confidence can we assert that the average building time for a new house is between 80 and 90 days?\nA. 15.4%\nB. 17.8%\nC. 20.0%\nD. 82.1%\nAnswer:",
+      "correct_answer": "D",
+      "percent_correct": 0.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "1": {
+      "input_prompt": "The following are multiple choice questions (with answers) about nutrition.\n\nIn a cohort study, the risk ratio of developing diabetes was 0.86 when comparing consumers of tea (the exposed) to those who did not drink tea (the unexposed). Which one statement is correct (according to knowledge in 2020)?\nA. The tea drinkers have lower risk of developing diabetes.\nB. The tea drinkers have higher risk of developing diabetes.\nC. Based on the information given we cannot tell if the observed difference in disease risk is the result of chance.\nD. The risk ratio is close to the value one, so there is no difference in disease risk between the two groups.\nAnswer: C\n\nWhich of the following statements is correct (according to knowledge in 2020)?\nA. Consumers with phenylketonuria must avoid the consumption of the sweetener aspartame\nB. Consumers with phenylketonuria must avoid the consumption of the sweetener saccharin\nC. Consumers with phenylketonuria must avoid the consumption of the sweetener sucralose\nD. Consumers with phenylketonuria must avoid the consumption of the sweetener acesulfame K\nAnswer: A\n\nWhich of the following is the most plausible explanation for the protective effect of dietary fibre against cancer of the colon, as of 2020?\nA. Propionic acid, formed during colonic fibre fermentation inhibits liver fatty acid synthesis\nB. Butyric acid, formed during colonic fibre fermentation stimulates \"silencing\" of the SLC5A8 tumour suppressor gene\nC. None of these options are correct\nD. Butyric acid, formed during colonic fibre fermentation stimulates anti-oxidant defences in the colon\nAnswer: D\n\nWhich of the following statements about iodine is correct, as of 2020?\nA. 50% of adults consume iodine at levels below the RNI\nB. Dairy products are a poor source of iodine\nC. The iodine content of organic milk is generally lower that the level in non-organic milk\nD. UK dietary reference values recommend an increase in iodine intake in pregnancy\nAnswer: C\n\nWhat is the first-line drug for patients with type 2 diabetes and obesity, as of 2020?\nA. Acarbose\nB. Metformin\nC. Sulphonylureas\nD. Insulin\nAnswer: B\n\nAccording to trials on diabetes prevention, high-risk individuals can reduce their risk to develop diabetes by doing the following:\nA. Eating a very low carbohydrate diet\nB. Consuming a diet high in monounsaturated fats\nC. Losing 5-7% of body weight through a hypocaloric low fat diet and 30 minutes of daily activity\nD. Initiating metformin 850 mg BID and practicing daily vigorous exercise\nAnswer:",
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "2": {
+      "input_prompt": "The following are multiple choice questions (with answers) about clinical knowledge.\n\nThe energy for all forms of muscle contraction is provided by:\nA. ATP.\nB. ADP.\nC. phosphocreatine.\nD. oxidative phosphorylation.\nAnswer: A\n\nWhat is the difference between a male and a female catheter?\nA. Male and female catheters are different colours.\nB. Male catheters are longer than female catheters.\nC. Male catheters are bigger than female catheters.\nD. Female catheters are longer than male catheters.\nAnswer: B\n\nIn the assessment of the hand function which of the following is true?\nA. Abduction of the thumb is supplied by spinal root T2\nB. Opposition of the thumb by opponens policis is supplied by spinal root T1\nC. Finger adduction is supplied by the median nerve\nD. Finger abduction is mediated by the palmar interossei\nAnswer: B\n\nHow many attempts should you make to cannulate a patient before passing the job on to a senior colleague, according to the medical knowledge of 2020?\nA. 4\nB. 3\nC. 2\nD. 1\nAnswer: C\n\nGlycolysis is the name given to the pathway involving the conversion of:\nA. glycogen to glucose-1-phosphate.\nB. glycogen or glucose to fructose.\nC. glycogen or glucose to pyruvate or lactate.\nD. glycogen or glucose to pyruvate or acetyl CoA.\nAnswer: C\n\nWhich of the following is true regarding the complications of a large goitre?\nA. It causes stridor due to compression of the oesophagus\nB. Dysphagia is an indication for surgery\nC. It causes hoarseness due to compression of the trachea\nD. It causes a more florid thyrotoxicosis than a smaller goitre\nAnswer:",
+      "correct_answer": "B",
+      "percent_correct": 0.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "3": {
+      "input_prompt": "The following are multiple choice questions (with answers) about nutrition.\n\nIn a cohort study, the risk ratio of developing diabetes was 0.86 when comparing consumers of tea (the exposed) to those who did not drink tea (the unexposed). Which one statement is correct (according to knowledge in 2020)?\nA. The tea drinkers have lower risk of developing diabetes.\nB. The tea drinkers have higher risk of developing diabetes.\nC. Based on the information given we cannot tell if the observed difference in disease risk is the result of chance.\nD. The risk ratio is close to the value one, so there is no difference in disease risk between the two groups.\nAnswer: C\n\nWhich of the following statements is correct (according to knowledge in 2020)?\nA. Consumers with phenylketonuria must avoid the consumption of the sweetener aspartame\nB. Consumers with phenylketonuria must avoid the consumption of the sweetener saccharin\nC. Consumers with phenylketonuria must avoid the consumption of the sweetener sucralose\nD. Consumers with phenylketonuria must avoid the consumption of the sweetener acesulfame K\nAnswer: A\n\nWhich of the following is the most plausible explanation for the protective effect of dietary fibre against cancer of the colon, as of 2020?\nA. Propionic acid, formed during colonic fibre fermentation inhibits liver fatty acid synthesis\nB. Butyric acid, formed during colonic fibre fermentation stimulates \"silencing\" of the SLC5A8 tumour suppressor gene\nC. None of these options are correct\nD. Butyric acid, formed during colonic fibre fermentation stimulates anti-oxidant defences in the colon\nAnswer: D\n\nWhich of the following statements about iodine is correct, as of 2020?\nA. 50% of adults consume iodine at levels below the RNI\nB. Dairy products are a poor source of iodine\nC. The iodine content of organic milk is generally lower that the level in non-organic milk\nD. UK dietary reference values recommend an increase in iodine intake in pregnancy\nAnswer: C\n\nWhat is the first-line drug for patients with type 2 diabetes and obesity, as of 2020?\nA. Acarbose\nB. Metformin\nC. Sulphonylureas\nD. Insulin\nAnswer: B\n\nDoses of substances used in animal toxicity studies are usually many times greater than those experienced by people because:\nA. Animals are generally much less sensitive than people\nB. Such tests can detect only very large risks because of the fact that only small numbers of animals can be used\nC. It is difficult in such studies to determine whether the observed toxic effects were caused by the substance\nD. It is the only way to ensure results are applicable to people\nAnswer:",
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "4": {
+      "input_prompt": "The following are multiple choice questions (with answers) about high school mathematics.\n\nJoe was in charge of lights for a dance. The red light blinks every two seconds, the yellow light every three seconds, and the blue light every five seconds. If we include the very beginning and very end of the dance, how many times during a seven minute dance will all the lights come on at the same time? (Assume that all three lights blink simultaneously at the very beginning of the dance.)\nA. 3\nB. 15\nC. 6\nD. 5\nAnswer: B\n\nFive thousand dollars compounded annually at an $x\\%$ interest rate takes six years to double. At the same interest rate, how many years will it take $\\$300$ to grow to $\\$9600$?\nA. 12\nB. 1\nC. 30\nD. 5\nAnswer: C\n\nThe variable $x$ varies directly as the square of $y$, and $y$ varies directly as the cube of $z$. If $x$ equals $-16$ when $z$ equals 2, what is the value of $x$ when $z$ equals $\\frac{1}{2}$?\nA. -1\nB. 16\nC. -\\frac{1}{256}\nD. \\frac{1}{16}\nAnswer: C\n\nSimplify and write the result with a rational denominator: $$\\sqrt{\\sqrt[3]{\\sqrt{\\frac{1}{729}}}}$$\nA. \\frac{3\\sqrt{3}}{3}\nB. \\frac{1}{3}\nC. \\sqrt{3}\nD. \\frac{\\sqrt{3}}{3}\nAnswer: D\n\nTen students take a biology test and receive the following scores: 45, 55, 50, 70, 65, 80, 40, 90, 70, 85. What is the mean of the students\u2019 test scores?\nA. 55\nB. 60\nC. 62\nD. 65\nAnswer: D\n\nRowena can paint a room in $14$ hours, while Ruby can paint it in $6$ hours. If Rowena paints for $x$ hours and Ruby paints for $y$ hours, they will finish half of the painting, while if Rowena paints for $y$ hours and Ruby paints for $x$ hours they will paint the whole room. Find the ordered pair $(x,y)$.\nA. (\\frac{11}{10}, \\frac{11}{10})\nB. (\\frac{231}{20}, \\frac{21}{20})\nC. (\\frac{231}{40}, \\frac{21}{40})\nD. (1,1)\nAnswer:",
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "5": {
+      "input_prompt": "The following are multiple choice questions (with answers) about moral disputes.\n\nAccording to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\nA. It is unclear as of yet whether or not capital punishment deters harm to the community.\nB. It is unclear as of yet whether or not capital punishment deters harm to any individuals.\nC. Consequentialism is not supported by African values.\nD. Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nAnswer: A\n\nA fertilized ovum is also known as\nA. a zygote.\nB. an embryo.\nC. a viability.\nD. a blastocyst.\nAnswer: A\n\nWhich of the following is an intrinsic good, according to Singer?\nA. being in the upper class\nB. the ability to learn and solve problems\nC. being more beautiful than most of the population\nD. being shorter than average\nAnswer: B\n\nPence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\nA. SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction.\nB. Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT.\nC. both A and B\nD. neither A nor B\nAnswer: A\n\nBaron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\nA. the stupidity of most traditional philosophical examples.\nB. a general lack of intelligence among people with advanced degrees.\nC. the wrongness of torture.\nD. the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nAnswer: D\n\nWhich of the following statements would Macedo disagree with?\nA. States should give special weight to their own citizens.\nB. Immigration policies can have powerful economic effects.\nC. Self-governance is morally irrelevant to the immigration debate.\nD. There are reasons to think U.S. immigration policy has had detrimental effects on income distribution among citizens.\nAnswer:",
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "6": {
+      "input_prompt": "The following are multiple choice questions (with answers) about professional medicine.\n\nA 42-year-old man comes to the office for preoperative evaluation prior to undergoing adrenalectomy scheduled in 2 weeks. One month ago, he received care in the emergency department for pain over his right flank following a motor vehicle collision. At that time, blood pressure was 160/100 mm Hg and CT scan of the abdomen showed an incidental 10-cm left adrenal mass. Results of laboratory studies, including complete blood count, serum electrolyte concentrations, and liver function tests, were within the reference ranges. The patient otherwise had been healthy and had never been told that he had elevated blood pressure. He takes no medications. A follow-up visit in the office 2 weeks ago disclosed elevated urinary normetanephrine and metanephrine and plasma aldosterone concentrations. The patient was referred to a surgeon, who recommended the adrenalectomy. Today, vital signs are temperature 36.6\u00b0C (97.9\u00b0F), pulse 100/min, respirations 14/min, and blood pressure 170/95 mm Hg. Physical examination discloses no significant findings. Initial preoperative preparation should include treatment with which of the following?\nA. Labetalol\nB. A loading dose of potassium chloride\nC. Nifedipine\nD. Phenoxybenzamine\nAnswer: D\n\nA 36-year-old male presents to the office with a\u00a03-week\u00a0history of low back pain. He denies any recent trauma but says that he climbs in and out of his truck numerous times a day for his job. Examination of the patient in the prone position reveals a deep sacral sulcus on the left, a posterior inferior lateral angle on the right, and a lumbosacral junction that springs freely on compression. The most likely diagnosis is\nA. left-on-left sacral torsion\nB. left-on-right sacral torsion\nC. right unilateral sacral flexion\nD. right-on-right sacral torsion\nAnswer: D\n\nA previously healthy 32-year-old woman comes to the physician 8 months after her husband was killed in a car crash. Since that time, she has had a decreased appetite and difficulty falling asleep. She states that she is often sad and cries frequently. She has been rechecking the door lock five times before leaving her house and has to count exactly five pieces of toilet paper before she uses it. She says that she has always been a perfectionist but these urges and rituals are new. Pharmacotherapy should be targeted to which of the following neurotransmitters?\nA. Dopamine\nB. Glutamate\nC. Norepinephrine\nD. Serotonin\nAnswer: D\n\nA 44-year-old man comes to the office because of a 3-day history of sore throat, nonproductive cough, runny nose, and frontal headache. He says the headache is worse in the morning and ibuprofen does provide some relief. He has not had shortness of breath. Medical history is unremarkable. He takes no medications other than the ibuprofen for pain. Vital signs are temperature 37.4\u00b0C (99.4\u00b0F), pulse 88/min, respirations 18/min, and blood pressure 120/84 mm Hg. Examination of the nares shows erythematous mucous membranes. Examination of the throat shows erythema and follicular lymphoid hyperplasia on the posterior oropharynx. There is no palpable cervical adenopathy. Lungs are clear to auscultation. Which of the following is the most likely cause of this patient's symptoms?\nA. Allergic rhinitis\nB. Epstein-Barr virus\nC. Mycoplasma pneumoniae\nD. Rhinovirus\nAnswer: D\n\nA 22-year-old male marathon runner presents to the office with the complaint of right-sided rib pain when he runs long distances. Physical examination reveals normal heart and lung findings and an exhalation dysfunction at ribs\u00a04-5 on the right. Which of the following muscles or muscle groups will be most useful in correcting this dysfunction utilizing a direct method?\nA. anterior scalene\nB. latissimus dorsi\nC. pectoralis minor\nD. quadratus lumborum\nAnswer: C\n\nA 17-year-old girl is brought to the physician by her mother because she has not had a menstrual period for 6 months. The patient is unconcerned about the lack of menses. Menarche occurred at the age of 12 years, and menses had occurred at regular 28-day intervals until they became irregular 1 year ago. She is a member of her high school gymnastics team. She appears emaciated. She is 163 cm (5 ft 4 in) tall and weighs 40 kg (88 lb); BMI is 15 kg/m2 . Her pulse is 54/min, and blood pressure is 80/50 mm Hg. Which of the following is the most likely cause of this patient's amenorrhea?\nA. Hyperthyroidism\nB. Hypogonadotropic hypogonadism\nC. Hypothyroidism\nD. Polycystic ovarian syndrome\nAnswer:",
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "7": {
+      "input_prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nThe great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nAccording to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nResearchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nRecent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nWhat is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nThe Yang-shao culture gave way to the Lung-Shan sometime after:\nA. 6,000 B.P.\nB. 5,000 B.P.\nC. 4,000 B.P.\nD. 3,000 B.P.\nAnswer:",
+      "correct_answer": "B",
+      "percent_correct": 0.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "8": {
+      "input_prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nBeyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\n_______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nTo ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nThree contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nIn contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nCultural homogenization.\nA. 1,3,4\nB. 1,2,3\nC. 1,2,3,4\nD. 2,3,4\nAnswer:",
+      "correct_answer": "B",
+      "percent_correct": 0.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "9": {
+      "input_prompt": "The following are multiple choice questions (with answers) about philosophy.\n\nPsychological egoism is:\nA. an ethical theory about how we ought to behave.\nB. a generalization concerning the way people tend to behave.\nC. a claim about human nature and the ways people are capable of behaving.\nD. none of the above.\nAnswer: C\n\nAccording to Moore\u2019s \u201cideal utilitarianism,\u201d the right action is the one that brings about the greatest amount of:\nA. pleasure.\nB. happiness.\nC. good.\nD. virtue.\nAnswer: C\n\nAccording to d'Holbach, people always act according to _____.\nA. free choices\nB. dictates of the soul\nC. necessary natural laws\nD. undetermined will\nAnswer: C\n\nBefore Tolstoy's Christian conversion, what was his perspective on the meaning of life?\nA. optimist\nB. satisfied\nC. nominally religious\nD. pessimist\nAnswer: D\n\nThe study of reality in the broadest sense, an inquiry into the elemental nature of the universe and the things in it, is known as _____.\nA. metaphysics\nB. epistemology\nC. quantum physics\nD. axiology\nAnswer: A\n\nOf the ways of escaping moral arguments that he discusses, Hare claims:\nA. none of them are successful.\nB. some, but not all of them are successful.\nC. all are entirely successful.\nD. all might be successful, but at a price.\nAnswer:",
+      "correct_answer": "D",
+      "percent_correct": 0.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "10": {
+      "input_prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nOne of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nThere are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nIn terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nCarl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nIn the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nAn employee of large manufacturing firm finds the work dull, and pursues the job only for the money. The employee performs minimally, and is not motivated so produce highest quantity or better quality. According to F. Herzberg's two-factor theory, the best way 10 increase this worker's self-motivation would be to\nA. offer a raise and incentive pay for greater productivity\nB. redesign the job to provide a challenge and a sense of accomplishment\nC. increase opportunities for informed social interaction\nD. provide the employee with a job tide carrying greater prestige\nAnswer:",
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "11": {
+      "input_prompt": "The following are multiple choice questions (with answers) about professional accounting.\n\nBox a nongovernmental not-for-profit organization had the following transactions during the year: Proceeds from sale of investments $80000 Purchase of property plant and equipment $10000 Proceeds from long-term debt $100000 Loss on sale of investment $5000 What amount should be reported as net cash provided by financing activities in Box's statement of cash flows?\nA. $70,000\nB. $75,000\nC. $80,000\nD. 100000\nAnswer: D\n\nOne hundred years ago, your great-great-grandmother invested $100 at 5% yearly interest. What is the investment worth today?\nA. $13,000\nB. $600\nC. $15,000\nD. $28,000\nAnswer: A\n\nKrete is an unmarried taxpayer with income exclusively from wages. By December 31, year 1, Krete's employer has withheld $16,000 in federal income taxes and Krete has made no estimated tax payments. On April 15, year 2, Krete timely filed for an extension request to file her individual tax return, and paid $300 of additional taxes. Krete's year 1 tax liability was $16,500 when she timely filed her return on April 30, year 2, and paid the remaining tax liability balance. What amount would be subject to the penalty for underpayment of estimated taxes?\nA. $0\nB. $500\nC. $1,650\nD. $16,500\nAnswer: A\n\nOn January 1, year 1, Alpha Co. signed an annual maintenance agreement with a software provider for $15,000 and the maintenance period begins on March 1, year 2. Alpha also incurred $5,000 of costs on January 1, year 1, related to software modification requests that will increase the functionality of the software. Alpha depreciates and amortizes its computer and software assets over five years using the straight-line method. What amount is the total expense that Alpha should recognize related to the maintenance agreement and the software modifications for the year ended December 31, year 1?\nA. $5,000\nB. $13,500\nC. $16,000\nD. $20,000\nAnswer: B\n\nAn auditor traces the serial numbers on equipment to a nonissuer\u2019s subledger. Which of the following management assertions is supported by this test?\nA. Valuation and allocation\nB. Completeness\nC. Rights and obligations\nD. Presentation and disclosure\nAnswer: B\n\nIn an e-commerce environment that requires that the information technology (IT) system be available on a continuous basis, more emphasis will be placed on which of the following aspects of the planning than in a traditional organization?\nA. Maintain appropriate written source documents so the data can be re-entered if it is lost or compromised\nB. Maintain redundant systems for instant availability to assure the flow of transactions\nC. Review additional expenses to obtain the required amount of business interruption insurance coverage for the organization\nD. Assure that appropriate data backups are stored in an off-site location\nAnswer:",
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "12": {
+      "input_prompt": "The following are multiple choice questions (with answers) about high school physics.\n\nWhich of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\nA. I and II only\nB. I and III only\nC. II and III only\nD. III only\nAnswer: D\n\nA pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\nA. The pressure is at a node, but the particle displacement is at an antinode.\nB. The pressure is at an antinode, but the particle displacement is at a node.\nC. The pressure and the particle displacement are both at nodes.\nD. The pressure and the particle displacement are both at antinodes.\nAnswer: B\n\nA photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\nA. 2:00 AM\nB. 6:00 AM\nC. 12:00 AM\nD. 24 A\nAnswer: D\n\nA microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\nA. 10 W\nB. 30 W\nC. 60 W\nD. 240 W\nAnswer: D\n\nA point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\nA. 3.5 J\nB. 6.0 J\nC. 22.5 J\nD. 40 J\nAnswer: B\n\nThe Space Shuttle orbits 300 km above the Earth\u2019s surface; the Earth\u2019s radius is 6400 km. What is the acceleration due to Earth\u2019s gravity experienced by the Space Shuttle?\nA. 4.9 m/s^2\nB. 8.9 m/s^2\nC. 9.8 m/s^2\nD. 10.8 m/s^2\nAnswer:",
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "13": {
+      "input_prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nFind all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nStatement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nStatement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nStatement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nFind the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nStatement 1 | The image of a group of 6 elements under a homomorphism may have 12 elements. Statement 2 | There is a homomorphism of some group of 6 elements into some group of 12 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer:",
+      "correct_answer": "D",
+      "percent_correct": 0.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "14": {
+      "input_prompt": "The following are multiple choice questions (with answers) about anatomy.\n\nWhat is the embryological origin of the hyoid bone?\nA. The first pharyngeal arch\nB. The first and second pharyngeal arches\nC. The second pharyngeal arch\nD. The second and third pharyngeal arches\nAnswer: D\n\nWhich of these branches of the trigeminal nerve contain somatic motor processes?\nA. The supraorbital nerve\nB. The infraorbital nerve\nC. The mental nerve\nD. None of the above\nAnswer: D\n\nThe pleura\nA. have no sensory innervation.\nB. are separated by a 2 mm space.\nC. extend into the neck.\nD. are composed of respiratory epithelium.\nAnswer: C\n\nIn Angle's Class II Div 2 occlusion there is\nA. excess overbite of the upper lateral incisors.\nB. negative overjet of the upper central incisors.\nC. excess overjet of the upper lateral incisors.\nD. excess overjet of the upper central incisors.\nAnswer: C\n\nWhich of the following is the body cavity that contains the pituitary gland?\nA. Abdominal\nB. Cranial\nC. Pleural\nD. Spinal\nAnswer: B\n\nAt which of the following locations does bile enter the digestive tract?\nA. Gastroesophageal sphincter\nB. Duodenum\nC. Ileocecum\nD. Jejunum\nAnswer:",
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "15": {
+      "input_prompt": "The following are multiple choice questions (with answers) about high school world history.\n\nThis question refers to the following information.\nHe contains all works and desires and all perfumes and all tastes. He enfolds the whole universe and in silence is loving to all. This is the Spirit that is in my heart, this is Brahman. To him I shall come when I go beyond this life, and to him will come he who has faith and doubts not.\n\u2014The Upanishads, India, c. 1000 BCE\nTo which religion does the speaker most likely belong?\nA. Hinduism\nB. Buddhism\nC. Shintoism\nD. Zoroastrianism\nAnswer: A\n\nThis question refers to the following information.\n\"The struggle against neo-colonialism is not aimed at excluding the capital of the developed world from operating in less developed countries. It is aimed at preventing the financial power of the developed countries being used in such a way as to impoverish the less developed.\nNon-alignment, as practiced by Ghana and many other countries, is based on co-operation with all States whether they be capitalist, socialist or have a mixed economy. Such a policy, therefore, involves foreign investment from capitalist countries, but it must be invested in accordance with a national plan drawn up by the government of the non-aligned State with its own interests in mind. The issue is not what return the foreign investor receives on his investments\u2026The question is one of power. A State in the grip of neo-colonialism is not master of its own destiny.\"\nKwame Nkrumah, Neo-Colonialism, 1965\nWhich of the following provides the best context for Nkrumah's writings?\nA. The Industrial Revolution\nB. Decolonization\nC. Regional Free Trade Associations\nD. Autarky\nAnswer: B\n\nThis question refers to the following information.\n\"The real grievance of the worker is the insecurity of his existence; he is not sure that he will always have work, he is not sure that he will always be healthy, and he foresees that he will one day be old and unfit to work. If he falls into poverty, even if only through a prolonged illness, he is then completely helpless, exam_ins to his own devices, and society does not currently recognize any real obligation towards him beyond the usual help for the poor, even if he has been working all the time ever so faithfully and diligently. The usual help for the poor, however, leaves a lot to be desired, especially in large cities, where it is very much worse than in the country.\"\nOtto von Bismarck, 1884\nOtto von Bismarck likely made this speech in reaction to which of the following issues?\nA. Social acceptance of child labor\nB. Declining life expectancy in Germany\nC. Criticisms of German trade tariffs\nD. Negative effects attributed to industrial capitalism\nAnswer: D\n\nThis question refers to the following information.\n\"Indeed, as both the fatwas of distinguished [scholars] who base their opinion on reason and tradition alike and the consensus of the Sunni community agree that the ancient obligation of extirpation, extermination, and expulsion of evil innovation must be the aim of our exalted aspiration, for \"Religious zeal is a victory for the Faith of God the Beneficent\"; then, in accordance with the words of the Prophet (Peace upon him!) \"Whosoever introduces evil innovation into our order must be expelled\" and \"Whosoever does aught against our order must be expelled,\" action has become necessary and exigent\u2026\"\nLetter from Ottoman Sultan Selim I to Safavid Shah Ismail I, 1514\nThe letter from Selim I is most clearly an example of which of the following?\nA. The maintenance of military supremacy at all costs\nB. Expanding tensions between religious sects\nC. Factors that brought about the collapse of the Ottoman Empire\nD. Peacemaking efforts among the Islamic empires\nAnswer: B\n\nThis question refers to the following information.\n\"At least one of the [world's] societies would have to somehow enormously increase its productivity [in order to achieve global hegemony]. That quantum jump would have to be made before the various scientific, technological, agricultural, and industrial revolutions on which our post-quantum-leap world rests. It could only be accomplished by exploiting the ecosystems, mineral resources, and human assets of whole continents outside the lands of the society making the jump. Western Europe did just that by means of its brutality and guns and, more important, by geographical and ecological luck.\"\nCopyright \u00a9 2015 Cambridge University Press.\nAlfred Crosby, historian, Ecological Imperialism, 2004\nThe \"quantum jump\" mentioned in the passage most directly contributed to which of the following developments in the period 1450\u20131750 C.E.?\nA. A breakdown in trade routes through the collapse of the established state structure\nB. An increase in the population of the world through more plentiful supplies of food\nC. The spread of Chinese and Indian belief systems across the world\nD. An increase in social unrest\nAnswer: B\n\nThis question refers to the following information.\nIs it not unity alone that can weld us into an effective force, capable of creating our own progress and making our valuable contribution to world peace? Which independent African state will claim that its financial structure and banking institutions are fully harnessed to its national development? Which will claim that its material resources and human energies are available for its own national aspirations? We are fast learning that political independence is not enough to rid us of the consequences of colonial rule. We have been too busy nursing our separate states to understand fully the basic need for union, rooted in common purpose, common planning and common endeavour.\nGhana's president, Kwame Nkrumah, addressing the Organization of African Unity, 1963\nThe speaker in the passage above is espousing which of the following causes?\nA. Nationalism\nB. Socialism\nC. Pan-Africanism\nD. Neocolonialism\nAnswer:",
+      "correct_answer": "C",
+      "percent_correct": 100.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "16": {
+      "input_prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nThe great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nAccording to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nResearchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nRecent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nWhat is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nMonte Alban is located in the ________ and was built by the _________.\nA. Valley of Mexico; Aztec.\nB. Valley of Oaxaca; Zapotec.\nC. Amazon floodplain; Olmec.\nD. Yucat\u00e1n Peninsula; Maya.\nAnswer:",
+      "correct_answer": "B",
+      "percent_correct": 100.0,
+      "responses": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    },
+    "17": {
+      "input_prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nGlucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nWhich of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nIn a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nA high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nAn expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nSauna use, sometimes referred to as \"sauna bathing,\" is characterized by short-term passive exposure to extreme heat. This exposure elicits mild hyperthermia \u2013 an increase in the body's core temperature \u2013 that induces a thermoregulatory response involving neuroendocrine, cardiovascular, and cytoprotective mechanisms that work together to restore homeostasis and condition the body for future heat stressors\u2026 In recent decades, sauna bathing has emerged as a means to increase lifespan and improve overall health, based on compelling data from observational, interventional, and mechanistic studies. Of particular interest are the findings from studies of participants in the Kuopio Ischemic Heart Disease Risk Factor (KIHD) Study, an ongoing prospective population-based cohort study of health outcomes in more than 2,300 middle-aged men from eastern Finland, which identified strong links between sauna use and reduced death and disease\u2026 The KIHD findings showed that men who used the sauna two to three times per week were 27 percent less likely to die from cardiovascular-related causes than men who didn't use the sauna.[2] Furthermore, the benefits they experienced were found to be dose-dependent: Men who used the sauna roughly twice as often, about four to seven times per week, experienced roughly twice the benefits \u2013 and were 50 percent less likely to die from cardiovascular-related causes.[2] In addition, frequent sauna users were found to be 40 percent less likely to die from all causes of premature death. These findings held true even when considering age, activity levels, and lifestyle factors that might have influenced the men's health.[2]... The KIHD also revealed that frequent sauna use reduced the risk of developing dementia and Alzheimer's disease in a dose-dependent manner. Men who used the sauna two to three times per week had a 66 percent lower risk of developing dementia and a 65 percent lower risk of developing Alzheimer's disease, compared to men who used the sauna only one time per week\u2026 The health benefits associated with sauna use extended to other aspects of mental health, as well. Men participating in the KIHD study who used the sauna four to seven times per week were 77 percent less likely to develop psychotic disorders, regardless of the men's dietary habits, socioeconomic status, physical activity, and inflammatory status (as measured by C-reactive protein)\u2026Exposure to high temperature stresses the body, eliciting a rapid, robust response. The skin and core body temperatures increase markedly, and sweating ensues. The skin heats first, rising to 40\u00b0C (104\u00b0F), and then changes in core body temperature occur, rising slowly from 37\u00b0C (98.6\u00b0F, or normal) to 38\u00b0C (100.4\u00b0F) and then rapidly increasing to 39\u00b0C (102.2\u00b0F)\u2026  Cardiac output, a measure of the amount of work the heart performs in response to the body's need for oxygen, increases by 60 to 70 percent, while the heart rate (the number of beats per minute) increases and the stroke volume (the amount of blood pumped) remains unchanged.[5] During this time, approximately 50 to 70 percent of the body's blood flow is redistributed from the core to the skin to facilitate sweating. The average person loses approximately 0.5 kg of sweat while sauna bathing.[11] Acute heat exposure also induces a transient increase in overall plasma volume to mitigate the decrease in core blood volume. This increase in plasma volume not only provides a reserve source of fluid for sweating, but it also acts like the water in a car's radiator, cooling the body to prevent rapid increases in core body temperature and promoting heat tolerance\u2026 Repeated sauna use acclimates the body to heat and optimizes the body's response to future exposures, likely due to a biological phenomenon known as hormesis, a compensatory defense response following exposure to a mild stressor that is disproportionate to the magnitude of the stressor. Hormesis triggers a vast array of protective mechanisms that not only repair cell damage but also provide protection from subsequent exposures to more devastating stressors\u2026 The physiological responses to sauna use are remarkably similar to those experienced during moderate- to vigorous-intensity exercise. In fact, sauna use has been proposed as an alternative to exercise for people who are unable to engage in physical activity due to chronic disease or physical limitations.[13]\n\nBased on the article, which of the following statements is the author likely to agree with?\nA. Heart surgery patients who cannot run on treadmills may benefit from sauna use.\nB. Patients on a diet would benefit from sauna use.\nC. Salt restriction would be equal to sauna use for hypertensive patients.\nD. Patients with skin conditions may be cured with sauna use.\nAnswer:",
+      "correct_answer": "A",
+      "percent_correct": 100.0,
+      "responses": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "18": {
+      "input_prompt": "The following are multiple choice questions (with answers) about professional law.\n\nA state legislature has recently enacted a statute making it a misdemeanor to curse or revile or use obscene or opprobrious language toward or in reference to a police officer perfonning his duties. A student at a state university organized a demonstration on campus to protest the war. The rally was attended by a group of 50 students who shouted anti-war messages at cars passing by. To show his contempt for the United States, the student sewed the American flag to the rear of his jeans. When a police officer saw the flag sown on the student's jeans, he approached and told him to remove the flag or he would be placed under arrest. The student became angered and shouted at the police officer, \"Listen, you bastard, I'll wear this rag anywhere I please. \" The student was subsequently placed under arrest and charged with violating the state statute. The student subsequently brings suit in state court challenging the constitutionality of the statute. The strongest constitutional argument for the student is that\nA. the statute is void for vagueness under the Fourteenth Amendment's due process clause.\nB. the statute is invalid because it violates the petitioner's freedom of speech under the First Amendment.\nC. the statute is an abridgment of freedom of speech under the First Amendment because less restrictive means are available for achieving the same purpose.\nD. the statute is overbroad and consequently invalid under the First and FourteenthAmendments.\nAnswer: D\n\nA state has recently enacted a statute prohibiting the disposal of any nuclear wastes within the state. This law does not contravene or conflict with any federal statutes. A man operates a company in the state that is engaged in the disposal of nuclear wastes. Subsequent to the passage of the state statute, the man, not yet aware of the new law, entered into contracts with many out-of-state firms to dispose of their nuclear wastes in the state. On account of this new law, however, the man will be unable to perform these contracts. Assume that the man has standing to challenge this state law. Which of the following presents his strongest constitutional grounds to challenge the state law prohibiting the disposal of nuclear wastes within the state?\nA. The commerce clause.\nB. The equal protection clause of the Fourteenth Amendment.\nC. The privileges and immunities clause of Article IV, Section 2. \nD. The contract clause.\nAnswer: A\n\nJudge took judicial notice of some facts at the beginning of the trial. Which of the following is not an appropriate kind of fact for judicial notice?\nA. Indisputable facts.\nB. Facts that have been asserted by individual political organizations.\nC. Facts recognized to be true by common knowledge.\nD. Facts capable of scientific verification.\nAnswer: B\n\nOn October 1, 1980, a developer, owner of several hundred acres in a rural county, drafted a general development plan for the area. The duly recorded plan imposed elaborate limitations and restrictions upon the land in the plan, which was to be developed as a residential district. The restrictions were to extend to all persons acquiring any of the lots and to their heirs, assigns, and lessees. It was further provided that all subsequent owners would be charged with due notice of the restrictions. Among those restrictions in the general plan were the following:(22) A franchise right is created in a strip of land 10 feet in width along the rear of each lot for the use of public utility companies with right of ingress and egress. (23) No house or structure of any kind shall be built on the aforementioned strip of land running through the said blocks. In 2000, a retiree purchased one of the lots, built a house, and erected a fence in the rear of his property within the restricted area. In 2004, a teacher purchased a lot adjacent to the retiree's property and built a new house. Two years later, a librarian purchased the lot that adjoined the teacher's property. The three deeds to those properties each contained references to the deed book where the general plan was recorded. In 2008, the librarian began the construction of a seven-foot post-and-rail fence along the line dividing his lot with the teacher's, and along the center of the area subject to the franchise right. Although the teacher objected to its construction, the fence was completed. If the teacher seeks a mandatory injunction to compel removal of the librarian's fence, the court will most likely\nA. grant relief, because the fence was in violation of the easement restriction. \nB. grant relief, because the encroachment of the fence violated the restriction in the original plan. \nC. deny relief, because the teacher failed to enforce the restriction against the retiree. \nD. deny relief, because the fence would not be construed as \"a structure\" within the terms of the restriction. \nAnswer: B\n\nA son owed a creditor $5,000. The son's father contacted the creditor and told him that he wanted to pay the son's debt. The father signed a document that stated the father would pay the son's debt at a rate of $500 a month for 10 months. The creditor made no written or oral commitment to forbear to sue the son to collect the $5,000 debt, and the father made no oral or written request for any such forbearance. For the next five months, the father made and the creditor accepted the $500 monthly payments as agreed. During that period, the creditor, in fact, did forbear to take any legal action against the son. However, the father then informed the creditor that he would make no further payments on the debt. Which of the following is the most persuasive argument that the father is liable to the creditor under the terms of their agreement?\nA. The father's promise and the creditor's reliance thereon, if proved, gave rise to a valid claim by the creditor against the father based on the doctrine of promissory estoppel. \nB. Because it was foreseeable that the father's promise would induce the creditor to forbear taking any action against the son, such forbearance was, as a matter of law, a bargained-for consideration for the father's promise. \nC. The father's five payments to the creditor totaling $2,500 manifested a serious intent on the father's part to be contractually bound, and such manifestation is generally recognized as an effective substitute for consideration. \nD. By assuming the antecedent debt obligation that the son owed to the creditor, the father became a surety whose promise to the creditor was enforceable, since it was in writing and supported by adequate consideration. \nAnswer: A\n\nA department store had suffered a succession of thefts of merchandise over a period of months. From reports by employees and customers, the department store's manager concluded that the losses were due, wholly or in large part, to the depredations of a female shoplifter, aged 30 to 40 years, about 5 feet 5 inches in height, with red hair and green eyes, who usually wore a suit. This information was passed on to all of the employees of the department store. One day, a woman entered the store to purchase accessories. The woman was 5 feet 5 inches tall, 37 years old, red-haired and green-eyed, and dressed in a smartly tailored suit. She carried a large shopping bag. The manager noticed her as she picked up, examined, and put down a number of gloves and scarves. After a while, she looked about tentatively, and then started to walk out, swinging her bag. The manager intercepted her and, standing in front of her, politely asked the woman if she would accompany her to the store manager's office. When the woman asked for an explanation, the manager told her of the store's recent experience and the suspicion that the woman might be concealing pilfered merchandise in her bag. Flushing angrily, the woman replied, \"Very well,\" and followed her to the office. Once there, the manager began to question the woman quite intensively. After the questioning, the manager then asked the woman's permission to inspect the contents of her shopping bag. At first, the woman curtly refused and announced that she had had enough of this nonsense. When she rose to go, the manager told her, \"Listen, unless you let me look inside that bag, I'm going to call the police. \" The woman replied, \"Very well,\" and handed her the bag. The manager inspected the contents of the bag thoroughly but did not find any pilfered merchandise. She then gave the woman permission to leave. The total length of the woman's detention was 30 minutes. If the woman asserts a claim for false imprisonment against the department store, she will most likely\nA. prevail, because she was detained for an unreasonably long period of time.\nB. prevail, because the manager did not have reasonable grounds to suspect that the woman had committed a theft.\nC. not prevail, because under the circumstances, the manager had reasonable grounds to suspect that the woman had committed a theft.\nD. not prevail, because the manager gave the woman permission to leave after conducting her investigation.\nAnswer:",
+      "correct_answer": "A",
+      "percent_correct": 0.0,
+      "responses": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    "19": {
+      "input_prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nThe rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nDuring the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nWhich of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nThe practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nWhich one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nWhich language family is most widely spoken in North America and Europe and includes Baltic, Celtic, Germanic, and Greek?\nA. Dravidian\nB. Uralic-Altaic\nC. Sino-Tibetan\nD. Indo-European\nAnswer:",
+      "correct_answer": "D",
+      "percent_correct": 100.0,
+      "responses": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ]
+    }
+  }
+}

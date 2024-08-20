@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Question</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+        }
+        .question {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .choices {
+            display: flex;
+            flex-direction: column;
+        }
+        .choice {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #34495e;
+            border-radius: 5px;
+        }
+        .choice input[type="radio"] {
+            margin-right: 10px;
+        }
+        .choice input[type="radio"]:checked + span {
+            font-weight: bold;
+            color: #f1c40f;
+        }
+    </style>
+</head>
+<body>
+    <div class="question">The weight percent of sodium hydroxide dissolved in water is 50%. What is the mole fraction of sodium hydroxide?</div>
+    <div class="choices">
+        <label class="choice"><input type="radio" name="answer" value="A" checked><span>31.00%</span></label>
+        <label class="choice"><input type="radio" name="answer" value="B" ><span>0.164</span></label>
+        <label class="choice"><input type="radio" name="answer" value="C" ><span>0.311</span></label>
+        <label class="choice"><input type="radio" name="answer" value="D" ><span>0.5</span></label>
+    </div>
+</body>
+</html>

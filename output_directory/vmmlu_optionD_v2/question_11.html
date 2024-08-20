@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Question</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+        }
+        .question {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .choices {
+            display: flex;
+            flex-direction: column;
+        }
+        .choice {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #34495e;
+            border-radius: 5px;
+        }
+        .choice input[type="radio"] {
+            margin-right: 10px;
+        }
+        .choice input[type="radio"]:checked + span {
+            font-weight: bold;
+            color: #f1c40f;
+        }
+    </style>
+</head>
+<body>
+    <div class="question">In an e-commerce environment that requires that the information technology (IT) system be available on a continuous basis, more emphasis will be placed on which of the following aspects of the planning than in a traditional organization?</div>
+    <div class="choices">
+        <label class="choice"><input type="radio" name="answer" value="A" ><span>Maintain appropriate written source documents so the data can be re-entered if it is lost or compromised</span></label>
+        <label class="choice"><input type="radio" name="answer" value="B" ><span>Maintain redundant systems for instant availability to assure the flow of transactions</span></label>
+        <label class="choice"><input type="radio" name="answer" value="C" ><span>Review additional expenses to obtain the required amount of business interruption insurance coverage for the organization</span></label>
+        <label class="choice"><input type="radio" name="answer" value="D" checked><span>Assure that appropriate data backups are stored in an off-site location</span></label>
+    </div>
+</body>
+</html>

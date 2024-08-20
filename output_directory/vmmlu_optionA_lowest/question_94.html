@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Question</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+        }
+        .answer-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .bubble {
+            width: 20px;
+            height:20px;
+            border-radius: 50%;
+            border: 2px solid white;
+            margin-right: 10px;
+            display: inline-block;
+        }
+
+
+        .question {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .choices {
+            display: flex;
+            flex-direction: column;
+        }
+        .choice {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #34495e;
+            border-radius: 5px;
+        }
+        .choice input[type="radio"] {
+            margin-right: 10px;
+        }
+        .choice input[type="radio"]:checked + span {
+            font-weight: bold;
+            color: #f1c40f;
+        }
+    </style>
+</head>
+<body>
+    <div class="question">This question refers to the following information.
+"But you, my dear Pangloss," said Candide, "how can it be that I behold you again?"
+"It is true," said Pangloss, "that you saw me hanged&….A surgeon purchased my body, carried home, and dissected me. He began with making a crucial incision on me from the navel to the clavicula. One could not have been worse hanged than I was. The executioner of the Holy Inquisition was a sub-deacon, and knew how to burn people marvellously well, but he was not accustomed to hanging. The cord was wet and did not slip properly, and besides it was badly tied; in short, I still drew my breath, when the crucial incision made me give such a frightful scream that my surgeon fell flat upon his back&…[At length he] sewed up my wounds; his wife even nursed me. I was upon my legs at the end of fifteen days&….
+One day I took it into my head to step into a mosque, where I saw an old Iman and a very pretty young devotee who was saying her paternosters&….She dropped her bouquet; I picked it up, and presented it to her with a profound reverence. I was so long in delivering it that the Iman began to get angry, and seeing that I was a Christian he called out for help. They carried me before the cadi, who ordered me a hundred lashes on the soles of the feet and sent me to the galleys. I was chained to the very same galley and the same bench as the young Baron. On board this galley there were four young men from Marseilles, five Neapolitan priests, and two monks from Corfu, who told us similar adventures happened daily. The Baron maintained that he had suffered greater injustice than I&….We were continually disputing, and received twenty lashes with a bull's pizzle when the concatenation of universal events brought you to our galley, and you were good enough to ransom us."
+"Well, my dear Pangloss," said Candide to him, "when you had been hanged, dissected, whipped, and were tugging at the oar, did you always think that everything happens for the best?"
+"I am still of my first opinion," answered Pangloss, "for I am a philosopher and I cannot retract, especially as Leibnitz could never be wrong; and besides, the pre-established harmony is the finest thing in the world, and so is his plenum and materia subtilis."
+Voltaire, French Enlightenment writer, Candide, 1759
+The themes of the passage and the mode in which Pangloss tells them show the influence of</div>
+    <div class="choices">
+        <label class="choice"><input type="radio" name="answer" value="A" ><span>Empiricism</span></label>
+        <label class="choice"><input type="radio" name="answer" value="B" ><span>Rationalism</span></label>
+        <label class="choice"><input type="radio" name="answer" value="C" ><span>Romanticism</span></label>
+        <label class="choice"><input type="radio" name="answer" value="D" checked><span>Medievalism</span></label>
+    </div>
+</body>
+</html>

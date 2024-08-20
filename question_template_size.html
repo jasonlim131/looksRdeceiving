@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Question</title>
+    <style>
+        body {{
+            font-family: Arial, sans-serif;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+        }}
+        .question {{
+            font-size: 16px;
+            margin-bottom: 20px;
+        }}
+        .choices {{
+            display: flex;
+            flex-direction: column;
+        }}
+        .choice input[type="radio"] {{
+            margin-right: 10px;
+        }}
+        {css}
+    </style>
+</head>
+<body>
+    <div class="question">{question}</div>
+    <div class="choices">
+        <label class="choice-A"><input type="radio" name="answer" value="A"><span>{choiceA}</span></label>
+        <label class="choice-B"><input type="radio" name="answer" value="B"><span>{choiceB}</span></label>
+        <label class="choice-C"><input type="radio" name="answer" value="C"><span>{choiceC}</span></label>
+        <label class="choice-D"><input type="radio" name="answer" value="D"><span>{choiceD}</span></label>
+    </div>
+</body>
+</html>

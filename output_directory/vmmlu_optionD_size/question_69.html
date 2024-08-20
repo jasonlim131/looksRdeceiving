@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Question</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+        }
+        .question {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .choices {
+            display: flex;
+            flex-direction: column;
+        }
+        .choice input[type="radio"] {
+            margin-right: 10px;
+        }
+        
+        .choice-A {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #34495e;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    
+        .choice-B {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #34495e;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    
+        .choice-C {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #34495e;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    
+        .choice-D {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #34495e;
+            border-radius: 5px;
+            font-size: 32px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="question">Let T be a depth-first search tree of a connected undirected graph G. For each vertex v of T, let pre(v) be the number of nodes visited up to and including v during a preorder traversal of T, and post(v) be the number of nodes visited up to and including v during a postorder traversal of T. The lowest common ancestor of vertices u and v in T is a vertex w of T such that w is an ancestor of both u and v, and no child of w is an ancestor of both u and v. Let (u, v) be an edge in G that is not in T, such that pre(u) < pre(v). Which of the following statements about u and v must be true?
+I. post(u) < post(v)
+II. u is an ancestor of v in T.
+III. If w is the lowest common ancestor of u and v in T, then w = u.</div>
+    <div class="choices">
+        <label class="choice-A"><input type="radio" name="answer" value="A"><span>I only</span></label>
+        <label class="choice-B"><input type="radio" name="answer" value="B"><span>II only</span></label>
+        <label class="choice-C"><input type="radio" name="answer" value="C"><span>III only</span></label>
+        <label class="choice-D"><input type="radio" name="answer" value="D"><span>II and III</span></label>
+    </div>
+</body>
+</html>

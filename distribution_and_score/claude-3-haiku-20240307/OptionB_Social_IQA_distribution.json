@@ -1,0 +1,12 @@
+{
+    "model_distribution": {
+        "A": 3.0,
+        "B": 94.0,
+        "C": 3.0
+    },
+    "ground_truth_distribution": {
+        "A": 25.0,
+        "B": 31.0,
+        "C": 44.0
+    }
+}

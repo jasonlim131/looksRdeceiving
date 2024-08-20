@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Question</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+        }
+        .question {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .choices {
+            display: flex;
+            flex-direction: column;
+        }
+        .choice {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #34495e;
+            border-radius: 5px;
+        }
+        .choice input[type="radio"] {
+            margin-right: 10px;
+        }
+        .choice input[type="radio"]:checked + span {
+            font-weight: bold;
+            color: #f1c40f;
+        }
+    </style>
+</head>
+<body>
+    <div class="question">The Traditional Religion Advocacy Party (TRAP) has successfully lobbied the State of Texarkana for a statute named "Equal Rights for All Religions." The law requires broadcasters that air segments discussing Christianity to allow equal time for segments on Judaism, Islam, Hinduism, and Buddhism. The American Atheism Association (AAA) has put together a broadcast segment about atheism, rejecting all religions, but four of the five Texarkana stations have declined to air the segment because they believe it would violate the statute. AAA has filed suit against the state, challenging the constitutionality of the statute. What is the strongest argument AAA can make in support of striking down the Equal Rights for All Religions statute?</div>
+    <div class="choices">
+        <label class="choice"><input type="radio" name="answer" value="A" checked><span>The First Amendment prohibits government interference with freedom of the press.</span></label>
+        <label class="choice"><input type="radio" name="answer" value="B" ><span>The fact that the statute involves only broadcast media and not print media is an Equal Protection violation.</span></label>
+        <label class="choice"><input type="radio" name="answer" value="C" ><span>The First Amendment prohibits government interference with the free exercise of religion.</span></label>
+        <label class="choice"><input type="radio" name="answer" value="D" ><span>The statute is not narrowly tailored to promote a compelling governmental interest.</span></label>
+    </div>
+</body>
+</html>

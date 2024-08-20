@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Question</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+        }
+        .question {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .choices {
+            display: flex;
+            flex-direction: column;
+        }
+        .choice {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #34495e;
+            border-radius: 5px;
+        }
+        .choice input[type="radio"] {
+            margin-right: 10px;
+        }
+        .choice input[type="radio"]:checked + span {
+            font-weight: bold;
+            color: #f1c40f;
+        }
+    </style>
+</head>
+<body>
+    <div class="question">A state imposes a graduated income tax upon net income calculated under federal law. Section 22 of the city's reform act of 2010, which is to become effective on January 1, 2010, provides: "Any parent or guardian financially responsible for the education of his ward may claim a direct tax credit against his income tax liability equal to the amount of tuition of a child or children of high school age who does not attend a public high school. " Other provisions define "tuition" very broadly but limit the credit to tuition paid to schools meeting the educational requirements as determined by the state. On December 1, 2009, the parents of two students who attend a public high school in the state sue for a declaratory judgment and injunction in federal court, claiming that Section 22 violates the establishment clause of the First Amendment. The federal court will most likely</div>
+    <div class="choices">
+        <label class="choice"><input type="radio" name="answer" value="A" ><span>dismiss the action, because the suit involves a political question.</span></label>
+        <label class="choice"><input type="radio" name="answer" value="B" checked><span>dismiss the action, because the plaintiffs lack standing as taxpayers.</span></label>
+        <label class="choice"><input type="radio" name="answer" value="C" ><span>dismiss the action, because the issues are not ripe.</span></label>
+        <label class="choice"><input type="radio" name="answer" value="D" ><span>dismiss the action, because the issues being litigated are moot.</span></label>
+    </div>
+</body>
+</html>

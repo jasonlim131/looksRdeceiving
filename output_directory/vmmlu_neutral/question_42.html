@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Question</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+        }
+        .answer-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .bubble {
+            width: 20px;
+            height:20px;
+            border-radius: 50%;
+            border: 2px solid white;
+            margin-right: 10px;
+            display: inline-block;
+        }
+
+
+        .question {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .choices {
+            display: flex;
+            flex-direction: column;
+        }
+        .choice {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #34495e;
+            border-radius: 5px;
+        }
+        .choice input[type="radio"] {
+            margin-right: 10px;
+        }
+        .choice input[type="radio"]:checked + span {
+            font-weight: bold;
+            color: #f1c40f;
+        }
+    </style>
+</head>
+<body>
+    <div class="question">A state law imposes penalties for "any public statement containing false or misleading information about a service or product." An airline falsely claimed in an advertisement that its competitor had an inferior safety record. The claim was based on erroneous information, found on the website of a nonprofit consumer advocacy group, that the airline assumed to be true. The airline was charged under the state law for making a false statement. No federal statute applies. Which of the following best supports the airline in a defense based on the First Amendment?</div>
+    <div class="choices">
+        <label class="choice"><input type="radio" name="answer" value="A" ><span>Its statement about the safety record was made without malice.</span></label>
+        <label class="choice"><input type="radio" name="answer" value="B" ><span>Its statement about the safety record was protected noncommercial speech.</span></label>
+        <label class="choice"><input type="radio" name="answer" value="C" ><span>The state law is a prior restraint.</span></label>
+        <label class="choice"><input type="radio" name="answer" value="D" ><span>The state law is overbroad.</span></label>
+    </div>
+</body>
+</html>

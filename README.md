@@ -1,6 +1,6 @@
 # Measuring Visual Sycophancy in Multimodal Models
 
-This repository contains the code and resources for replicating the experiments and analysis from our paper "[Measuring Visual Sycophancy in Multimodal Models](https://www.arxiv.org/abs/2408.09111).
+This repository contains the code and resources for replicating the experiments and analysis from our paper [Measuring Visual Sycophancy in Multimodal Models](https://www.arxiv.org/abs/2408.09111).
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -104,8 +104,8 @@ Detailed results can be found in `full_results.rtf`. Key findings include:
 
 We encourage further research in the following areas:
 
-- Mechanistic Analysis: Conduct in-depth investigations of open-source models exhibiting visual bias. This could begin with embedding projections to understand the underlying mechanisms.
 - Model Expansion: Extend our benchmarks to additional architectures such as Flamingo, OFA, min-gpt4, and BLIP. Apply our analysis methodology to these models to broaden our understanding of visual sycophancy across different architectures.
+- Mechanistic Analysis: Conduct in-depth investigations of open-source models exhibiting visual bias. This could begin with embedding projections to understand the overlap in representation.
 
 
 We welcome contributions to this project! Please see our [Contributing Guidelines](CONTRIBUTING.md) for more information.

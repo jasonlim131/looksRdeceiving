@@ -1,6 +1,6 @@
-# Measuring Visual Sycophancy in Multimodal Models
+# Measuring agreeableness bias in Multimodal Models
 
-This repository contains the code and resources for replicating the experiments and analysis from our paper [Measuring Visual Sycophancy in Multimodal Models](https://www.arxiv.org/abs/2408.09111).
+This repository contains the code and resources for replicating the experiments and analysis from our paper [Measuring agreeableness bias in Multimodal Models](https://www.arxiv.org/abs/2408.09111).
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -17,7 +17,7 @@ This repository contains the code and resources for replicating the experiments 
 
 ## Introduction
 
-This project investigates the phenomenon of "visual sycophancy" in multimodal language models - the tendency of these models to disproportionately favor visually presented information, even when it contradicts their prior knowledge. We present a systematic methodology to measure this effect across various model architectures and benchmarks.
+This project investigates the phenomenon of "agreeableness bias" in multimodal language models - the tendency of these models to disproportionately favor visually presented information, even when it contradicts their prior knowledge. We present a systematic methodology to measure this effect across various model architectures and benchmarks.
 
 ## Repository Structure
 
@@ -85,7 +85,7 @@ python3.10 calculate_bias_{task_format}.py
 
 ## Models Tested
 
-We evaluated visual sycophancy in the following models:
+We evaluated agreeableness bias in the following models:
 
 - GPT-4o-mini (any other gpt models usable with evaluate_gpt4 and evaluate_gpt4_social; just change the value of 'MODEL' variable.
 - Claude Haiku 3 (you can use evaluate_claude for any of the claude models, if you have enough credits)
@@ -103,7 +103,7 @@ These models were chosen for their balance of performance (70-80% on full MMLU) 
 
 We encourage further research in the following areas:
 
-- Model Expansion: Extend our benchmarks to additional architectures such as Flamingo, OFA, min-gpt4, and BLIP. Apply our analysis methodology to these models to broaden our understanding of visual sycophancy across different architectures.
+- Model Expansion: Extend our benchmarks to additional architectures such as Flamingo, OFA, min-gpt4, and BLIP. Apply our analysis methodology to these models to broaden our understanding of agreeableness bias across different architectures.
 - Mechanistic Analysis: Conduct in-depth investigations of open-source models exhibiting visual bias. This could begin with embedding projections to understand the overlap in representation.
 
 

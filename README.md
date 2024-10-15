@@ -1,4 +1,4 @@
-# Measuring agreeableness bias in Multimodal Models
+# Measuring Agreeableness Bias in Multimodal Models
 
 This repository contains the code and resources for replicating the experiments and analysis from our paper [Measuring agreeableness bias in Multimodal Models](https://www.arxiv.org/abs/2408.09111).
 

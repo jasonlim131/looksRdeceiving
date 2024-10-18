@@ -41,10 +41,10 @@ cd looksRdeceiving
 ```
 
 
-3. Create a virtual environment, e.g. "sycophant_venv":
+3. Create a virtual environment, e.g. "agreeable_venv":
 4. Activate this environment in your terminal:
 ```
-source /path/to/env/sycophant/venv/bin/activate
+source /path/to/env/agreeable_venv/venv/bin/activate
 ```
 5. Install dependencies
 ```
